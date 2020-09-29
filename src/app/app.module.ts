@@ -1,0 +1,36 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+import { routingComponents, AppRoutingModule } from './routes/app-routing.module';
+import { LayoutComponent } from './ui/layout/layout.component';
+import { HeaderComponent } from './ui/header/header.component';
+import { FooterComponent } from './ui/footer/footer.component';
+
+import { ProfileComponent } from './ui/profile/profile.component';
+import { ProfiledataComponent } from './ui/profiledata/profiledata.component';
+import { MediaComponent } from './ui/media/media.component';
+import { HomeComponent } from './ui/home/home.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    LayoutComponent,
+    HeaderComponent,
+    FooterComponent,
+    ProfileComponent,
+    ProfiledataComponent,
+    MediaComponent,
+    routingComponents,
+    HomeComponent
+       
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+
+export class AppModule { }
