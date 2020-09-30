@@ -1,0 +1,23 @@
+
+
+<form style="border:1px solid #ccc" #f="ngForm" [formGroup]="myForm" (keydown)="f.ngSubmit.emit()">
+    <div class="container">
+      <h1>Registration</h1>
+      <p>Please fill in this form to register.</p>
+      <hr>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input maxlength="30" class="form-control" id="name" aria-describedby="emailHelp" required placeholder="Enter Name">
+      </div> 
+      <div class="form-group">
+        <label for="tel">Phome Number</label>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phonenumber" maxlength="12" class="form-control" id="tel" aria-describedby="emailHelp" required placeholder="000-000-0000">
+      </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" aria-describedby="emailHelp" required placeholder="Enter Email">
+        </div>
+
+        <button type="submit" class="btn btn-primary" ng-submit="onSubmit()">Register</button>
+    </div>
+  </form>

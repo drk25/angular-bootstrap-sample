@@ -1,5 +1,10 @@
 {
     "usertype": {
+        "store": [
+            "id22",
+            "id23",
+            "id24"
+        ],
         "board": [
             "id1",
             "id2",
@@ -16,9 +21,9 @@
             "id8"
         ],
         "guestperformers": [
-            "id1",
-            "id4",
-            "id5"
+            "id8",
+            "id9",
+            "id10"
         ],
         "students": [
             "id2",
@@ -268,6 +273,38 @@
                 "a",
                 "b",
                 "c"
+            ]
+        }, "id22": {
+            "user_id": "id1",
+            "name": "Dr. Soumendu Guha",
+            "role": "President",
+            "url": "../assets/images/Soumendu_Guha.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id23": {
+            "user_id": "id2",
+            "name": "Kumkum Bagchi",
+            "role": "VicePresident",
+            "url": "../assets/images/Kumkum_Bagchi.jpg",
+            "bio_content": [
+                "d",
+                "e",
+                "f"
+            ]
+        },
+        "id24": {
+            "user_id": "id3",
+            "name": "Faisal Quader",
+            "role": "Director",
+            "url": "../assets/images/Faisal_Quader.jpg",
+            "bio_content": [
+                "i",
+                "j",
+                "k"
             ]
         }
     }

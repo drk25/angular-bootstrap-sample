@@ -5,14 +5,15 @@ import { LayoutComponent } from '../ui/layout/layout.component';
 import { ProfileComponent } from '../ui/profile/profile.component'
 import { MediaComponent } from '../ui/media/media.component';
 import { HomeComponent } from '../ui/home/home.component';
+import { SignupLoginComponent } from '../ui/signup-login/signup-login.component';
 
 
 const routes: Routes = [
   { path: 'layout/:page', component: LayoutComponent},
   { path: 'profile/:page', component: ProfileComponent},
-  { path: 'media', component: MediaComponent},
-
-  // { path: '/', redirectTo: 'home'},
+  { path: 'media/:page', component: MediaComponent},
+  { path: 'auth/:page', component: SignupLoginComponent},
+   // { path: '/', redirectTo: 'home'},
   { path: 'home', component: HomeComponent },
   { path: '', component: HomeComponent }  // this will load by default
 
