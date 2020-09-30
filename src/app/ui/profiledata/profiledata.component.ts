@@ -1,15 +1,31 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+// import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import {NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-profiledata',
   templateUrl: './profiledata.component.html',
   styleUrls: ['./profiledata.component.css']
 })
-export class ProfiledataComponent implements OnInit {
+export class ProfiledataComponent {
 
-  constructor() { }
+  @Input() member: Member;
+  constructor(public activeModal: NgbActiveModal) { }
 
-  ngOnInit(): void {
+    
+  close() {
+    this.close();
   }
 
+}
+export enum ModalType {
+  INFO = 'info',
+  WARN = 'warn'
+}
+export interface Member {
+  name: string;
+  role: string;
+  description: string;
+  bio_content: string[];
+  // modalType: ModalType = ModalType.INFO;
 }

@@ -24,15 +24,15 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" [routerLink]="['/layout','aboutus']" routerLinkActive="router-link-active" >Introduction</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Board</a>
+                <a class="dropdown-item" [routerLink]="['/profile','board']" routerLinkActive="router-link-active">Board</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Faculty</a>
+                <a class="dropdown-item" [routerLink]="['/profile','faculty']" routerLinkActive="router-link-active">Faculty</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Guest Faculty</a>
+                <a class="dropdown-item" [routerLink]="['/profile','guestfaculty']" routerLinkActive="router-link-active">Guest Faculty</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Guest Performers</a>
+                <a class="dropdown-item" [routerLink]="['/profile','guestperformers']" routerLinkActive="router-link-active">Guest Performers</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Students</a>
+                <a class="dropdown-item" [routerLink]="['/profile','students']" routerLinkActive="router-link-active">Students</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" [routerLink]="['/layout','membership']" routerLinkActive="router-link-active">Membership</a>
               </div>
@@ -50,7 +50,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" [routerLink]="['/layout','onlineclasses']" routerLinkActive="router-link-active">Online Classes</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Worshop</a>
+                <a class="dropdown-item" href="#">Worshops</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -73,10 +73,15 @@
                 aria-haspopup="true" aria-expanded="false">
                 Gallery
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" [routerLink]="['/layout','aboutus']" routerLinkActive="router-link-active" >Photos</a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" [routerLink]="['/media','photos']" routerLinkActive="router-link-active" >Photos</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Videos</a>
+                <a class="dropdown-item">Videos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" [routerLink]="['/media','videos']" routerLinkActive="router-link-active">2020 Covid-19 Impacted & Amphan Relief Donations</a>
+                <a class="dropdown-item" [routerLink]="['/media','photos']" routerLinkActive="router-link-active" >2020 Covid-19 Impacted & Amphan Relief Fundraisers</a>
+                <a class="dropdown-item" [routerLink]="['/media','photos']" routerLinkActive="router-link-active" >2019 Kahlar Annual Day Videos</a>
+                <a class="dropdown-item" [routerLink]="['/media','videos']" routerLinkActive="router-link-active">2018 NABC</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -90,9 +95,9 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" [routerLink]="['/layout','proposals']" routerLinkActive="router-link-active">Proposals</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Store</a>
+                <a class="dropdown-item" [routerLink]="['/profile','store']" routerLinkActive="router-link-active">Store</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Online Paymrnt</a>
+                <a class="dropdown-item"href="">Online Paymrnt</a>
               </div>
             </li>
           </ul>

@@ -11,6 +11,7 @@ import { ProfileComponent } from './ui/profile/profile.component';
 import { ProfiledataComponent } from './ui/profiledata/profiledata.component';
 import { MediaComponent } from './ui/media/media.component';
 import { HomeComponent } from './ui/home/home.component';
+import { SignupLoginComponent } from './ui/signup-login/signup-login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './ui/home/home.component';
     ProfiledataComponent,
     MediaComponent,
     routingComponents,
-    HomeComponent
+    HomeComponent,
+    SignupLoginComponent
        
   ],
   imports: [
