@@ -10,6 +10,7 @@ html, body {
 
 .lesson-card {
     margin-top: 20px;
+    background-color: rgb(243, 243, 240);
 }
 
 .lesson-col{

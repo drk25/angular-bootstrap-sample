@@ -9,19 +9,16 @@
 <div class="container-fluid">
   <div class="row">
     <div class="lesson-card">
-      <div class="row-12 row-sm-4 row-md-4 row-lg-6 card lesson-border">
         <div class="card-body">
           <p class="card-text"><b>{{headerContent}} </b> </p>
         </div>
-      </div>
+
 
       <div class="lesson-card">
-        <div class="row-12 row-sm-4 row-md-4 row-lg-6 card lesson-border">
           <h5 class="card-title"><b>{{listHeader}} </b></h5>
           <div class="card-body" *ngFor="let item of listItems">
             <p class="card-text"><i class="fa fa-chevron-right" aria-hidden="true"></i><b>   {{item}} </b> </p>
           </div>
-        </div>
 
       </div>
       <div class="lesson-card">
@@ -31,11 +28,10 @@
       </div>
 
       <div class="lesson-card">
-        <div class="row-12 row-sm-4 row-md-4 row-lg-6 card lesson-border">
           <div class="card-body">
             <p class="card-text"><b>{{footerContent}} </b> </p>
           </div>
-        </div>
+
       </div>
     </div>
 

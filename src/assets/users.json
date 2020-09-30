@@ -1,0 +1,274 @@
+{
+    "usertype": {
+        "board": [
+            "id1",
+            "id2",
+            "id3"
+        ],
+        "faculty": [
+            "id1",
+            "id4",
+            "id5"
+        ],
+        "guestfaculty": [
+            "id6",
+            "id7",
+            "id8"
+        ],
+        "guestperformers": [
+            "id1",
+            "id4",
+            "id5"
+        ],
+        "students": [
+            "id2",
+            "id3",
+            "id9",
+            "id10",
+            "id11",
+            "id12",
+            "id13",
+            "id14",
+            "id15",
+            "id16",
+            "id17",
+            "id18",
+            "id19",
+            "id20",
+            "id21"
+        ]
+    },
+    "userdata": {
+        "id1": {
+            "user_id": "id1",
+            "name": "Dr. Soumendu Guha",
+            "role": "President",
+            "url": "../assets/images/Soumendu_Guha.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id2": {
+            "user_id": "id2",
+            "name": "Kumkum Bagchi",
+            "role": "VicePresident",
+            "url": "../assets/images/Kumkum_Bagchi.jpg",
+            "bio_content": [
+                "d",
+                "e",
+                "f"
+            ]
+        },
+        "id3": {
+            "user_id": "id3",
+            "name": "Faisal Quader",
+            "role": "Director",
+            "url": "../assets/images/Faisal_Quader.jpg",
+            "bio_content": [
+                "i",
+                "j",
+                "k"
+            ]
+        },
+        "id4": {
+            "user_id": "id4",
+            "name": "Dr. Debashish Rauchaudhuri",
+            "role": "",
+            "url": "../assets/images/Debashish_Raychaudhuri.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id5": {
+            "user_id": "id5",
+            "name": "Rohini Raychaudhuri",
+            "role": "",
+            "url": "../assets/images/Rohini_Raychaudhuri.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id6": {
+            "user_id": "id6",
+            "name": "Sangeeta Di",
+            "role": "",
+            "url": "../assets/images/Sangeeta_di.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id7": {
+            "user_id": "id7",
+            "name": "Debangana Sarkar",
+            "role": "",
+            "url": "../assets/images/Debangana_Sarkar.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id8": {
+            "user_id": "id8",
+            "name": "Shamik Pal",
+            "role": "",
+            "url": "../assets/images/Shamik_Pal.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id9": {
+            "user_id": "id9",
+            "name": "Aparajita De",
+            "role": "",
+            "url": "../assets/images/Aparajita_De.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id10": {
+            "user_id": "id10",
+            "name": "Arundhati Ghosh",
+            "role": "",
+            "url": "../assets/images/Arundhati_Ghosh.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id11": {
+            "user_id": "id11",
+            "name": "Bhaskar Ganguli",
+            "role": "",
+            "url": "../assets/images/Bhaskar_Ganguli.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id12": {
+            "user_id": "id12",
+            "name": "Dipannita Dutta",
+            "role": "",
+            "url": "../assets/images/Dipannita_Dutta.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id13": {
+            "user_id": "id13",
+            "name": "Ipsita Mookherjee",
+            "role": "",
+            "url": "../assets/images/Ipsita_Mookherjee.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id14": {
+            "user_id": "id14",
+            "name": "Madhurima Sen Lahiri",
+            "role": "",
+            "url": "../assets/images/Madhurima_Sen_Lahiri.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id15": {
+            "user_id": "id15",
+            "name": "Moumita Gupta",
+            "role": "",
+            "url": "../assets/images/Moumita_Gupta.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id16": {
+            "user_id": "id16",
+            "name": "Nazia Nawshad Shawon",
+            "role": "",
+            "url": "../assets/images/Nazia_Nawshad_Shawon.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id17": {
+            "user_id": "id17",
+            "name": "Patricia Gomez",
+            "role": "",
+            "url": "../assets/images/Patricia_Gomez.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id18": {
+            "user_id": "id18",
+            "name": "Rajdeep Bhaduri",
+            "role": "",
+            "url": "../assets/images/Rajdeep_Bhaduri.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id19": {
+            "user_id": "id19",
+            "name": "Shamima Kondokar",
+            "role": "",
+            "url": "../assets/images/Shamima_Kondokar.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id20": {
+            "user_id": "id20",
+            "name": "Shimi Naureen Ahmad",
+            "role": "",
+            "url": "../assets/images/Shimi_Naureen_Ahmad.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "id21": {
+            "user_id": "id21",
+            "name": "Shovan Naskar",
+            "role": "",
+            "url": "../assets/images/Shovan_Naskar.jpg",
+            "bio_content": [
+                "a",
+                "b",
+                "c"
+            ]
+        }
+    }
+}

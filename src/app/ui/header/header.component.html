@@ -10,33 +10,90 @@
       </div>
 
       <div class="col-10">
-        <div class="collapse justify-content-end navbar-collapse" [ngClass]="{ 'show': isShown }"
+        <div class="collapse justify-content-end navbar-collapse"
           id="navbarTogglerDemo03">
           <ul class="navbar-nav mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#" (click)="isShown = false" routerLink="/home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" (click)="isShown = false" [routerLink]="['/layout','aboutus']" routerLinkActive="router-link-active" >About</a>
+              <a class="nav-link" href="#" routerLink="/home">Home</a>
             </li>
             <li class="nav-item dropdown">
 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Dropdown
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About Us
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" [routerLink]="['/layout','aboutus']" routerLinkActive="router-link-active" >Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" [routerLink]="['/layout','aboutus']" routerLinkActive="router-link-active" >Introduction</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Board</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Faculty</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Guest Faculty</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Guest Performers</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Students</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" [routerLink]="['/layout','membership']" routerLinkActive="router-link-active">Membership</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">Portfolio</a>
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Education
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" [routerLink]="['/layout','curriculum']" routerLinkActive="router-link-active" >Curriculum</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" [routerLink]="['/layout','inpersonclasses']" routerLinkActive="router-link-active">In-Person Classes</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" [routerLink]="['/layout','onlineclasses']" routerLinkActive="router-link-active">Online Classes</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Worshop</a>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">Book Me</a>
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" [routerLink]="['/layout','pastperformances']" routerLinkActive="router-link-active" >Past Performances</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" [routerLink]="['/layout','upcomingperformances']" routerLinkActive="router-link-active">Upcoming Performances</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" [routerLink]="['/layout','fundraisers']" routerLinkActive="router-link-active">Fundraisers</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Gallery
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" [routerLink]="['/layout','aboutus']" routerLinkActive="router-link-active" >Photos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Videos</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Other
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" [routerLink]="['/layout','supportus']" routerLinkActive="router-link-active" >Support Us</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" [routerLink]="['/layout','proposals']" routerLinkActive="router-link-active">Proposals</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Store</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Online Paymrnt</a>
+              </div>
             </li>
           </ul>
         </div>
