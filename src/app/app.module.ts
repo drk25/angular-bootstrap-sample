@@ -1,17 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+
+import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+
 
 import { AppComponent } from './app.component';
 import { routingComponents, AppRoutingModule } from './routes/app-routing.module';
 import { LayoutComponent } from './ui/layout/layout.component';
 import { HeaderComponent } from './ui/header/header.component';
 import { FooterComponent } from './ui/footer/footer.component';
-
 import { ProfileComponent } from './ui/profile/profile.component';
 import { ProfiledataComponent } from './ui/profiledata/profiledata.component';
 import { MediaComponent } from './ui/media/media.component';
 import { HomeComponent } from './ui/home/home.component';
 import { SignupLoginComponent } from './ui/signup-login/signup-login.component';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +36,11 @@ import { SignupLoginComponent } from './ui/signup-login/signup-login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
