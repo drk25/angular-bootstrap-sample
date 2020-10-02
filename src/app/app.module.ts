@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
-import { environment } from 'src/environments/environment';
+import { firebasebDBenv } from 'src/environments/firebase-config';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 
@@ -18,6 +18,7 @@ import { ProfiledataComponent } from './ui/profiledata/profiledata.component';
 import { MediaComponent } from './ui/media/media.component';
 import { HomeComponent } from './ui/home/home.component';
 import { SignupLoginComponent } from './ui/signup-login/signup-login.component';
+import { UserListComponent } from './ui/user-list/user-list.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { SignupLoginComponent } from './ui/signup-login/signup-login.component';
     MediaComponent,
     routingComponents,
     HomeComponent,
-    SignupLoginComponent
+    SignupLoginComponent,
+    UserListComponent
        
   ],
   imports: [
@@ -39,7 +41,7 @@ import { SignupLoginComponent } from './ui/signup-login/signup-login.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireModule.initializeApp(firebasebDBenv.firebaseConfig),
     AngularFireDatabaseModule
   ],
   providers: [],

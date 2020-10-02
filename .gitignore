@@ -1,3 +1,2 @@
 node_modules
-
-web/firebase-config.js
+environments/firebase-config.ts

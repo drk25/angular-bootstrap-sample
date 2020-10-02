@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
 import { AngularFireDatabase } from '@angular/fire/database';
-import { Observable } from  'rxjs';
+import { AngularFirestore } from '@angular/fire/firestore';
+import { Observable } from 'rxjs';
 import { RegistrationService } from '../../service/registration.service';
 
 @Component({
@@ -10,39 +11,40 @@ import { RegistrationService } from '../../service/registration.service';
   styleUrls: ['./signup-login.component.css']
 })
 export class SignupLoginComponent {
-  title = 'Angular8Firebase';
-  description = 'Angular-Fire-Demo';
-  
-  registerForm: FormGroup;
-  isSubmitted  =  false;
+
+  isSubmitted = false;
 
   itemValue = '';
   items: Observable<any[]>;
- 
+  items2: any;
   constructor(
     public db: AngularFireDatabase,
+    public dbStore: AngularFirestore,
     public registerService: RegistrationService) {
-    this.items = db.list('items').valueChanges();
+    // let allUsers = this.dbStore.firestore.collection('Registrations');
+    // allUsers.get().then((querySnapshot) => {
+    //   querySnapshot.forEach((doc) => {
+    //     console.log(doc.id, "=>", doc.data());
+    //   })
+    // })
   }
-  get formControls() { return this.registerForm.controls; }
+  registerForm = new FormGroup({
+    name: new FormControl(Validators.required),
+    email: new FormControl(Validators.required, Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$")),
+    phone: new FormControl(Validators.required, Validators.pattern("[0-9 ]{11}"))
+
+  });
+  get formControls() {
+    return this.registerForm.controls;
+  }
+
   onSubmit() {
     console.log(this.registerForm.value);
     this.isSubmitted = true;
-    // if(this.registerForm.invalid){
-    //   return;
-    // }
     this.registerService.createRegistration(this.registerForm.value);
   }
-  
-    // this.registerService.createRegistration(this.fb.)
-    // this.db.list('items').push({ content: this.itemValue});
-    // this.itemValue = '';
-    ngOnInit() {
-      this.registerForm = new FormGroup({
-        name: new FormControl(),
-        email: new FormControl(), 
-        phone: new FormControl()
-      
-      });
-    }
-  }
+
+  ngOnInit() { 
+
+   }
+}
