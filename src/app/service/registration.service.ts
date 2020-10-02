@@ -9,7 +9,7 @@ export class RegistrationService {
 
   constructor(private firestore: AngularFirestore) { }
 
-  getRegistrations() {
+  getAllUsers() {
     return this.firestore.collection('Registrations').snapshotChanges();
 }
 
