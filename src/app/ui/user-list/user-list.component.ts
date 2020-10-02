@@ -10,12 +10,17 @@ export class UserListComponent implements OnInit {
 
   constructor(public registrationService: RegistrationService) { }
   ngOnInit() {
+    this.getAllUsers();
 
   }
 
   users;
 
+  getAllUsers = () => this.registrationService.getAllUsers().subscribe(res => (this.users = res));
 
+  delUser = data => this.registrationService.deleteUser(data);
+
+  markCompleted = data => this.registrationService.updateUser(data);
 
 
 }

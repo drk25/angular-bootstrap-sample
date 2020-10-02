@@ -20,6 +20,7 @@ export class SignupLoginComponent {
   constructor(
     public db: AngularFireDatabase,
     public dbStore: AngularFirestore,
+    private fb: FormBuilder,
     public registerService: RegistrationService) {
     // let allUsers = this.dbStore.firestore.collection('Registrations');
     // allUsers.get().then((querySnapshot) => {
@@ -29,9 +30,9 @@ export class SignupLoginComponent {
     // })
   }
   registerForm = new FormGroup({
-    name: new FormControl(Validators.required),
-    email: new FormControl(Validators.required, Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$")),
-    phone: new FormControl(Validators.required, Validators.pattern("[0-9 ]{11}"))
+    name: new FormControl(''),
+    email: new FormControl(''),
+    phone: new FormControl('')
 
   });
   get formControls() {
@@ -41,10 +42,14 @@ export class SignupLoginComponent {
   onSubmit() {
     console.log(this.registerForm.value);
     this.isSubmitted = true;
-    this.registerService.createRegistration(this.registerForm.value);
+    this.registerService.createUser(this.registerForm.value);
   }
 
-  ngOnInit() { 
-
-   }
+  ngOnInit() {
+    this.registerForm = this.fb.group({
+        name: ['', Validators.required],
+        email: ['', [Validators.required, Validators.email]],
+        phone: ['', [Validators.required]]
+    });
+}
 }

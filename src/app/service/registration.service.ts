@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { Registration } from '../model/registration.model';
+import { FormControl, FormGroup } from "@angular/forms";
+
 
 @Injectable({
   providedIn: 'root'
@@ -8,23 +9,38 @@ import { Registration } from '../model/registration.model';
 export class RegistrationService {
 
   constructor(private firestore: AngularFirestore) { }
+  registerForm = new FormGroup({
+    name: new FormControl(''),
+    email: new FormControl(''),
+    phone: new FormControl(''),
+    completed: new FormControl(false)
+
+  });
 
   getAllUsers() {
     return this.firestore.collection('Registrations').snapshotChanges();
-}
+  }
 
-createRegistration(registration: Registration){
-  console.log("INSIDE REGISTER SERVICE: " + JSON.stringify(registration));
-  return this.firestore.collection('Registrations').add(registration);
-}
+  createUser(data) {
+    return new Promise<any>((resolve, reject) => {
+      this.firestore
+        .collection("Registrations")
+        .add(data)
+        .then(res => { }, err => reject(err));
+    });
+  }
 
-updateRegistration(registration: Registration){
-  delete registration.id;
-  this.firestore.doc('Registrations/' + registration.id).update(registration);
-}
+  updateUser(data) {
+    return this.firestore
+      .collection("Registrations")
+      .doc(data.payload.doc.id)
+      .set({ completed: true }, { merge: true });
+  }
 
-deleteRegistration(registrationId: string){
-  this.firestore.doc('Registrations/' + registrationId).delete();
-}
-
+  deleteUser(data) {
+    return this.firestore
+      .collection("Registrations")
+      .doc(data.payload.doc.id)
+      .delete();
+  }
 }
