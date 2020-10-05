@@ -1,67 +1,11 @@
-<!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div *ngIf="page != 'photos'">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/orGM1b1kDaA?start=4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
-      </div>
-      <div *ngIf="page == 'photos'">
-        <img class="d-block w-100" src="{{active}}" alt="First slide">
-      </div>
-    </div>
-  </div>
-  <div *ngIf="page == 'photos'">
-    <div class="carousel-item" *ngFor="let slide of slides">
-      <img src="{{slide}}" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <div *ngIf="page != 'photos'">
-    <div class="carousel-item" *ngFor="let slide of slides">
-      <iframe src="https://www.youtube.com/watch?v=gwV6urvJjgQ?start=4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
-<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="sr-only">Next</span>
-</a>
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-<div class="carousel-inner">
-	<div class="carousel-item active">
-	<img src="../../../assets/images/home.png" class="d-block w-100" alt="...">
-	</div>
-	<div class="carousel-item" *ngFor="let slide of slides">
-	<img src="{{slide}}" class="d-block w-100" alt="...">
-	</div>
-	<div class="carousel-item">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/xX50r0zFlKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
-</div>
-<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	<span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-	<span class="sr-only">Next</span>
-</a>
-</div> -->
-
-
-
-
 <div *ngIf="page == 'photos'">
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="{{active}}" class="d-block w-100" alt="...">
+      <div class="carousel-item active embed-responsive embed-responsive-16by9">
+        <img [src]="active" class="embed-responsive-item" alt="...">
       </div>
-      <div class="carousel-item" *ngFor="let slide of slides">
-        <img src="{{slide}}" class="d-block w-100" alt="...">
+      <div class="carousel-item embed-responsive embed-responsive-16by9" *ngFor="let slide of slides">
+        <img [src]="slide" class="embed-responsive-item" alt="...">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -80,13 +24,13 @@
 <div *ngIf="page != 'photos'">
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <iframe width="560" height="315" [src]="active" frameborder="0"
+      <div class="carousel-item active embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" [src]="active" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
-      <div class="carousel-item" *ngFor="let slide of slides">
-        <iframe width="560" height="315" [src]="slide" frameborder="0"
+      <div class="carousel-item embed-responsive embed-responsive-16by9" *ngFor="let slide of slides">
+        <iframe class="embed-responsive-item" [src]="slide" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
