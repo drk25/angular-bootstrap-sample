@@ -1,0 +1,57 @@
+<div class="col">
+    <app-user-list></app-user-list>
+</div>
+<h1 class="display-4">Register</h1>
+<form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
+    <input type="hidden" name="id" #id="ngModel" [(ngModel)]="userService.formData.id">
+    <div class="form-group">
+        <input name="name" #name="ngModel" [(ngModel)]="userService.formData.name" class="form-control"
+            placeholder="Full name" required>
+        <div *ngIf="name.invalid && name.touched" class="validation-error">This field is required.</div>
+    </div>
+    <div class="form-group form-row">
+        <div class="form-group col-md-6">
+            <input name="email" #email="ngModel" [(ngModel)]="userService.formData.email" class="form-control"
+                placeholder="Email">
+        </div>
+        <div class="form-group  col-md-6">
+            <input name="phone" #phone="ngModel" [(ngModel)]="userService.formData.phone" class="form-control"
+                placeholder="Phone No">
+        </div>
+    </div>
+
+    <div class="form-group form-row">
+        <div class="form-group col-md-6">
+            <input name="role" #role="ngModel" [(ngModel)]="userService.formData.role" class="form-control"
+                placeholder="Role" required>
+            <div *ngIf="role.invalid && role.touched" class="validation-error">This field is required.</div>
+        </div>
+        <div class="form-group col-md-6">
+
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                User Type
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <select [(ngModel)]="userService.formData.userType" name="userType" #userType="ngModel"
+                    class="selectpicker" multiple data-live-search="true">
+                    <option value="Borad">Borad</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Faculty">Faculty</option>
+                    <option value="Students">Students</option>
+                    <option value="Guest Performers">Guest Performers</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <textarea name="description" #description="ngModel" [(ngModel)]="userService.formData.description"
+            class="form-control" placeholder="description" required></textarea>
+        <div *ngIf="description.invalid && description.touched" class="validation-error">This field is required.
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block btn-info">SUBMIT</button>
+    </div>
+</form>

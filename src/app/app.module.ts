@@ -6,7 +6,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { firebasebDBenv } from 'src/environments/firebase-config';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
-
+import { RegistrationService } from './service/registration.service';
+import { UserService } from './service/user.service';
 
 import { AppComponent } from './app.component';
 import { routingComponents, AppRoutingModule } from './routes/app-routing.module';
@@ -19,6 +20,7 @@ import { MediaComponent } from './ui/media/media.component';
 import { HomeComponent } from './ui/home/home.component';
 import { SignupLoginComponent } from './ui/signup-login/signup-login.component';
 import { UserListComponent } from './ui/user-list/user-list.component';
+import { UserComponent } from './ui/user/user.component';
 
 
 @NgModule({
@@ -33,7 +35,8 @@ import { UserListComponent } from './ui/user-list/user-list.component';
     routingComponents,
     HomeComponent,
     SignupLoginComponent,
-    UserListComponent
+    UserListComponent,
+    UserComponent
        
   ],
   imports: [
@@ -44,7 +47,7 @@ import { UserListComponent } from './ui/user-list/user-list.component';
     AngularFireModule.initializeApp(firebasebDBenv.firebaseConfig),
     AngularFireDatabaseModule
   ],
-  providers: [],
+  providers: [RegistrationService,UserService],
   bootstrap: [AppComponent]
 })
 
