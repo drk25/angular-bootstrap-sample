@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { RegistrationService } from '../../service/registration.service'
+import { RegistrationService } from '../../service/registration.service';
+import { UserService } from '../../service/user.service';
+import { User } from '../../model/user.model';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-user-list',
@@ -8,19 +11,37 @@ import { RegistrationService } from '../../service/registration.service'
 })
 export class UserListComponent implements OnInit {
 
-  constructor(public registrationService: RegistrationService) { }
-  ngOnInit() {
-    this.getAllUsers();
+  list: User[];
+  constructor(public registrationService: RegistrationService,
+    private userService: UserService, private firestore: AngularFirestore) { }
 
+
+  ngOnInit() {
+    this.userService.getUsers().subscribe(actionArray => {
+      this.list = actionArray.map(item => {
+        return {
+          id: item.payload.doc.id,
+          name: item.payload.doc.data()['name'],
+          phone: item.payload.doc.data()['phone'],
+          email: item.payload.doc.data()['email'],
+          role: item.payload.doc.data()['role'],
+          userType: item.payload.doc.data()['userType'],
+          description: item.payload.doc.data()['description'],
+        } as User;
+      })
+    });
   }
 
-  users;
+  onEdit(usr: User) {
+    let existingUserID = usr.id;
+    console.log("ID: " + existingUserID)
+    this.userService.formData = Object.assign({}, usr);
+  }
 
-  getAllUsers = () => this.registrationService.getAllUsers().subscribe(res => (this.users = res));
-
-  delUser = data => this.registrationService.deleteUser(data);
-
-  markCompleted = data => this.registrationService.updateUser(data);
-
-
+  
+  onDelete(id: string) {
+    if (confirm("Are you sure to delete this record?")) {
+      this.firestore.doc('Users/' + id).delete();
+    }
+  }
 }
