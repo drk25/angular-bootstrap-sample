@@ -2,8 +2,7 @@
     "usertype": {
         "store": [
             "id22",
-            "id23",
-            "id24"
+            "id23"
         ],
         "board": [
             "id1",
@@ -15,15 +14,26 @@
             "id4",
             "id5"
         ],
-        "guestfaculty": [
-            "id6",
-            "id7",
-            "id8"
-        ],
         "guestperformers": [
-            "id8",
-            "id9",
-            "id10"
+            "id24",
+            "id25",
+            "id26",            
+            "id27",
+            "id28",
+            "id29",            
+            "id30",
+            "id31",
+            "id32",            
+            "id33",
+            "id34",
+            "id35",            
+            "id36",
+            "id37",
+            "id38",            
+            "id39",
+            "id40",
+            "id41",            
+            "id42"
         ],
         "students": [
             "id2",
@@ -61,9 +71,14 @@
             "role": "VicePresident",
             "url": "../assets/images/Kumkum_Bagchi.jpg",
             "bio_content": [
-                "d",
-                "e",
-                "f"
+                "Was introduced to music at the tender age of 4 whilst in London, under the guidance of Ms. Arati Bhattacharya, an eminent artist from AIR",
+                "She continued her journey after moving to India, with various teachers, including the late Mr. Nityananda Mitra, who was a student of Ashoktaru Bandyopadhya",
+                "Kumkum has completed Sangeet Ratna (Masters) in Rabindrasangeet, with distinction,  from Bangiya Sangeet Parishad, which is affiliated to Rabindra Bharati University and which is recognized by Indira Kala Sangeet Vishwa Vidyalaya, Khairagarh, M.P",
+                "In addition, she holds a Sangeet Visharad (Graduation) in Hindustani Classical Music from Prayag Sangeet Samiti, affiliated to Allahabad University",
+                "A Graduate in Physics, she is also a University Gold Medalist - MBA (Information Systems and Operations Research) and  a University topper for all streams",
+                "Her journey in music continues under the guidance of Ms. Shreya Guhathakurta, Dr. Debashish Raichaudhuri, Ms. Apala Basu Sen, Ms. Pramita Chatterjee and Dr. Soumyendu Guha for Ranindrasangeet and Pandit Sanjoy Banerjee for Hindustani Classical Music",
+                "Kumkum has been a student of Kahlar since 2013 and under the mentorship of Dr. Soumyendu Guha, has been performing in the USA as well as abroad alongwith other Kahlar students",
+                "She currently resides in the Washington DC Metro area, USA and works as an IT Program Manager"
             ]
         },
         "id3": {
@@ -72,9 +87,11 @@
             "role": "Director",
             "url": "../assets/images/Faisal_Quader.jpg",
             "bio_content": [
-                "i",
-                "j",
-                "k"
+                "Started music at the age of 4 with family, especially his sister",
+                "Participated in a well-known Children’s TV program - “Notun Kuri” in Dhaka and other district level competitions at the age of 6 & beyond and stood first",
+                "Started learning Rabindra Sangeet at “Chhayanot” and completed 3rd year when he left for US at the age of 18 for studies. Also learned Sitar at Chayanot for 3 years prior to that at a young age",
+                "Faisal holds a Bachelors and a Masters in Computer Science &  Engineering and is currently wrapping up a PhD in Data science & Cybersecurity from the University of Maryland",
+                "He is Currently learning and practicing Rabindra Sangeet at Kahlar under Dr. Soumyendu Guha along with many other well renowned  Gurus such as Dr. Debashish Raychaudhuri, Ms. Shreya Guhathakurta and Dr. Shamik Pal"
             ]
         },
         "id4": {
@@ -101,20 +118,24 @@
         },
         "id6": {
             "user_id": "id6",
-            "name": "Sangeeta Di",
+            "name": "Sangeeta Ganguly",
             "role": "",
-            "url": "../assets/images/Sangeeta_di.jpg",
+            "url": "../assets/images/Sangeeta_Ganguly.jpg",
             "bio_content": [
-                "a",
-                "b",
-                "c"
+                "Trained in Rabindrasangeet from Dakshinee",
+                "Graduated with distinction from Dakshinee in 1989",
+                "Awarded Dakshinee Puroshkar in 1990 in recognition of young talent for Rabindrasangeet",
+                "After graduating from Dakshinee underwent 8 years of advanced Rabindrasangeet training under the guidance of Mr. Rano Guhathakurta",
+                "Sangeeta has performed in various programs in  India and North America",
+                "She has been performing  for Kahlar as well as other groups  in different cities of North America since 2003",
+                "Sangeeta currently lives and works as an IT Professional in Colorado"
             ]
         },
         "id7": {
             "user_id": "id7",
-            "name": "Debangana Sarkar",
+            "name": "Debangana Sarker",
             "role": "",
-            "url": "../assets/images/Debangana_Sarkar.jpg",
+            "url": "../assets/images/Debangana_Sarker.jpg",
             "bio_content": [
                 "a",
                 "b",
@@ -137,77 +158,49 @@
             "name": "Aparajita De",
             "role": "",
             "url": "../assets/images/Aparajita_De.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id10": {
             "user_id": "id10",
             "name": "Arundhati Ghosh",
             "role": "",
             "url": "../assets/images/Arundhati_Ghosh.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id11": {
             "user_id": "id11",
             "name": "Bhaskar Ganguli",
             "role": "",
             "url": "../assets/images/Bhaskar_Ganguli.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id12": {
             "user_id": "id12",
             "name": "Dipannita Dutta",
             "role": "",
             "url": "../assets/images/Dipannita_Dutta.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id13": {
             "user_id": "id13",
             "name": "Ipsita Mookherjee",
             "role": "",
             "url": "../assets/images/Ipsita_Mookherjee.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id14": {
             "user_id": "id14",
             "name": "Madhurima Sen Lahiri",
             "role": "",
             "url": "../assets/images/Madhurima_Sen_Lahiri.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id15": {
             "user_id": "id15",
             "name": "Moumita Gupta",
             "role": "",
             "url": "../assets/images/Moumita_Gupta.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id16": {
             "user_id": "id16",
@@ -215,9 +208,14 @@
             "role": "",
             "url": "../assets/images/Nazia_Nawshad_Shawon.jpg",
             "bio_content": [
-                "a",
-                "b",
-                "c"
+                "Nazia’s passion for music started at a very tender age in 1982 when she was a second grader. Her parents were avid listeners of Tagore music. Their love for this eminent poet has determined her fate as a Tagore musician. Her mother was a folk song-lover so she decided to train her in both types of music - Tagore and Folk",
+                "In 1982 she was first trained in folk music by Ms. Chandana Majumdar the famous Lalon Sangeet singer of Bangladesh",
+                "Beginning of 1983 her Rabindra Sangeet training started by Ms. Nilufer Sultana Khuku who was a student of Mr. Ajit Ray the eminent Bangladeshi Tagore musician. Under her supervision she continued to learn Tagore music for 11 years till 1994",
+                "In 1999 for a few months she was trained by Ms. Mita Haq the famous Bangladeshi Tagore musician",
+                "Nazia moved to US in 2001. In 2008 she got introduced to Kahlar and Dr. Soumyendu Guha. Since then her music journey continues in US. Currently she is learning and practicing Rabindrasangeet at Kahlar and under the mentorship of Dr. Soumyendu Guha she has been performing in USA along with other Kahlar students",
+                "Since 2017 she has started taking lessons from Ms. Shreya Guhathakurta and Dr. Debashish Raychaudhuri",
+                "Nazia also holds a Bachelor’s and Masters in English Literature from Dhaka University. In her secondary exam Nazia was a board stand from Dhaka board",
+                "In US, Nazia pursued her career in technical writing and business analysis. Currently she resides in the Washington DC Metro area, USA"
             ]
         },
         "id17": {
@@ -225,11 +223,7 @@
             "name": "Patricia Gomez",
             "role": "",
             "url": "../assets/images/Patricia_Gomez.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id18": {
             "user_id": "id18",
@@ -237,9 +231,13 @@
             "role": "",
             "url": "../assets/images/Rajdeep_Bhaduri.jpg",
             "bio_content": [
-                "a",
-                "b",
-                "c"
+                "Inspiration and love to learn Rabindrasangeet started at home from Mother, Grandmother and Aunt",
+                "Learnt classical music from Ustad Rabiul Hossain in Rajshahi for two years",
+                "Learnt tabla from Rajsahi Shilpokola Academy for one year",
+                "Learnt Rabindrasangeet from Ms. Banani Ghosh for one year",
+                "Currently learning Rabindrasangeet from Ms. Shreya Guhathakurta, Dr. Debashish Raychaudhuri and Dr. Soumyendu Guha",
+                "Occasionally takes tabla lessons from Mr. Debu Nayak",
+                "An Engineering graduate and IT Professional living in the Washington DC Metro area"
             ]
         },
         "id19": {
@@ -247,65 +245,170 @@
             "name": "Shamima Kondokar",
             "role": "",
             "url": "../assets/images/Shamima_Kondokar.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id20": {
             "user_id": "id20",
             "name": "Shimi Naureen Ahmad",
             "role": "",
             "url": "../assets/images/Shimi_Naureen_Ahmad.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
         },
         "id21": {
             "user_id": "id21",
             "name": "Shovan Naskar",
             "role": "",
             "url": "../assets/images/Shovan_Naskar.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
-        }, "id22": {
-            "user_id": "id1",
-            "name": "Dr. Soumendu Guha",
-            "role": "President",
-            "url": "../assets/images/Soumendu_Guha.jpg",
-            "bio_content": [
-                "a",
-                "b",
-                "c"
-            ]
+            "bio_content": []
+        },
+        "id22": {
+            "user_id": "id22",
+            "name": "Surantari",
+            "role": "",
+            "url": "../assets/images/Surantari.jpg",
+            "description": "In 2004, Kahlar produced Gitabitan-Live-2, compiled by Dakshinee, which comprises of 683 Tagore songs, dance dramas like Chitrangada., Shyama and Chandalika and operas like Balmiki Pratibha and Mayar Khela. These creations of Tagore, one of modern India's greatest poets and a Nobel laureate, are in a set of compact discs with original notations. The text of the lyrics is available in both Bangla and English. Available for purchase now at our Kahlar, Silver Spring location, MD, USA for $40",
+            "bio_content": []
         },
         "id23": {
-            "user_id": "id2",
-            "name": "Kumkum Bagchi",
-            "role": "VicePresident",
-            "url": "../assets/images/Kumkum_Bagchi.jpg",
-            "bio_content": [
-                "d",
-                "e",
-                "f"
-            ]
+            "user_id": "id23",
+            "name": "Gitobitan Live",
+            "role": "",
+            "url": "../assets/images/Gitobitan_Live.jpg",
+            "description": "n 2017, Kahlar produced an album “Surantari-Chhandantari-Pathantori” in collaboration with Hindustan Record of Kolkata. Eminent Rabindrasangeet Artistes from Kolkata, India, have come together in this album to produce an album which is one of its kind. This album is based on Tagore’s songs which have somewhat similar lyrics but different rhythms and tunes. Available for purchase now on Amazon.in: https://www.amazon.in/Surantori-Chhandantori-Pathantori. Also available at our Kahlar, Silver Spring location, MD, USA for $10",
+            "bio_content": []
         },
         "id24": {
-            "user_id": "id3",
-            "name": "Faisal Quader",
-            "role": "Director",
-            "url": "../assets/images/Faisal_Quader.jpg",
-            "bio_content": [
-                "i",
-                "j",
-                "k"
-            ]
+            "user_id": "id24",
+            "name": "Aditi Bhattacharya",
+            "role": "",
+            "url": "../assets/images/Aditi_Bhattacharya.jpg",
+            "bio_content": []
+        },
+        "id25": {
+            "user_id": "id25",
+            "name": "Agnibha Bandyopadhyay",
+            "role": "",
+            "url": "../assets/images/Agnibha_Bandyopadhyay.jpg",
+            "bio_content": []
+        },
+        "id26": {
+            "user_id": "id26",
+            "name": "Apala Basu Sen",
+            "role": "",
+            "url": "../assets/images/Apala_Basu_Sen.jpg",
+            "bio_content": []
+        },
+        "id27": {
+            "user_id": "id27",
+            "name": "Arindam Bandyopadhyay",
+            "role": "",
+            "url": "../assets/images/Arindam_Bandyopadhyay.jpg",
+            "bio_content": []
+        },
+        "id28": {
+            "user_id": "id28",
+            "name": "Arpita Dutta",
+            "role": "",
+            "url": "../assets/images/Arpita_Dutta.jpg",
+            "bio_content": []
+        },
+        "id29": {
+            "user_id": "id29",
+            "name": "Arpita Rakshit Sabud",
+            "role": "",
+            "url": "../assets/images/Arpita_Rakshit_Sabud.jpg",
+            "bio_content": []
+        },
+        "id30": {
+            "user_id": "id30",
+            "name": "Ayan Rivu Sinha",
+            "role": "",
+            "url": "../assets/images/Ayan_Rivu_Sinha.jpg",
+            "bio_content": []
+        },
+        "id31": {
+            "user_id": "id31",
+            "name": "Debangana Sarker",
+            "role": "",
+            "url": "../assets/images/Debangana_Sarker.jpg",
+            "bio_content": []
+        },
+        "id32": {
+            "user_id": "id32",
+            "name": "Enakshi Chattopadhyay",
+            "role": "",
+            "url": "../assets/images/Enakshi_Chattopadhyay.jpg",
+            "bio_content": []
+        },
+        "id33": {
+            "user_id": "id33",
+            "name": "Manini Mukhopadhyay",
+            "role": "",
+            "url": "../assets/images/Manini_Mukhopadhyay.jpg",
+            "bio_content": []
+        },
+        "id34": {
+            "user_id": "id34",
+            "name": "Nidrita Mitra Sinha",
+            "role": "",
+            "url": "../assets/images/Nidrita_Mitra_Sinha.jpg",
+            "bio_content": []
+        },
+        "id35": {
+            "user_id": "id35",
+            "name": "Pramita Mallick",
+            "role": "",
+            "url": "../assets/images/Pramita_Mallick.jpg",
+            "bio_content": []
+        },
+        "id36": {
+            "user_id": "id36",
+            "name": "Prosanto Ghosh",
+            "role": "",
+            "url": "../assets/images/Prosanto_Ghosh.jpg",
+            "bio_content": []
+        },
+        "id37": {
+            "user_id": "id37",
+            "name": "Saikat S Ray",
+            "role": "",
+            "url": "../assets/images/Saikat_S_Ray.jpg",
+            "bio_content": []
+        },
+        "id38": {
+            "user_id": "id38",
+            "name": "Sangeeta Ganguly",
+            "role": "",
+            "url": "../assets/images/Sangeeta_Ganguly.jpg",
+            "bio_content": []
+        },
+        "id39": {
+            "user_id": "id39",
+            "name": "Shamik Pal",
+            "role": "",
+            "url": "../assets/images/Shamik_Pal.jpg",
+            "bio_content": []
+        },
+        "id40": {
+            "user_id": "id40",
+            "name": "Shreetama Roy",
+            "role": "",
+            "url": "../assets/images/Shreetama_Roy.jpg",
+            "bio_content": []
+        },
+        "id41": {
+            "user_id": "id41",
+            "name": "Srovonti Bosu",
+            "role": "",
+            "url": "../assets/images/Srovonti_Bosu.jpg",
+            "bio_content": []
+        },
+        "id42": {
+            "user_id": "id42",
+            "name": "Suranjana Goswami",
+            "role": "",
+            "url": "../assets/images/Suranjana_Goswami.jpg",
+            "bio_content": []
         }
     }
 }

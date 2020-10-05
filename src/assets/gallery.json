@@ -1,46 +1,54 @@
 {
-    "photos": [
-        "../assets/images/Kumkum_Bagchi.jpg",
-        "../assets/images/Faisal_Quader.jpg",
-        "../assets/images/Dipannita_Dutta.jpg",
-        "../assets/images/Aparajita_De.jpg"
-    ],
-    "videos": {
-        "2018 NABC": [
-            "https://www.youtube.com/watch?v=KBvkojH8qR4",
-            "https://www.youtube.com/watch?v=16gxY1rDBQ4",
-            "https://www.youtube.com/watch?v=_oi7nQBArpY",
-            "https://www.youtube.com/watch?v=gwV6urvJjgQ"
-        ],
-        "2019 Kahlar Annual Day": [
-            "https://www.youtube.com/watch?v=CxWsmQE0nw4",
-            "https://www.youtube.com/watch?v=teTcJs0li48"
-        ],
-        "2020 Covid-19 Impacted &amp; Amphan Relief Donations": [
-            "https://www.youtube.com/watch?v=_WegXdhhZxY",
-            "https://www.youtube.com/watch?v=orGM1b1kDaA",
-            "https://www.youtube.com/watch?v=lFcQuq5mlR0",
-            "https://www.youtube.com/watch?v=A6gz0uM8IBc",
-            "https://www.youtube.com/watch?v=yB7WgvHaoJE"
-        ],
-        "2020 Covid-19 Impacted &amp; Amphan Relief Fundraisers": [
-            "https://www.youtube.com/watch?v=wUwoUxHe5go",
-            "https://www.youtube.com/watch?v=lLF1njDX0dc",
-            "https://www.youtube.com/watch?v=spNuhseSdqQ",
-            "https://www.youtube.com/watch?v=icLxFNBfJFw",
-            "https://www.youtube.com/watch?v=2q9gbA-sB5Q",
-            "https://www.youtube.com/watch?v=CrF48-IZpr0",
-            "https://www.youtube.com/watch?v=IWrIX_iNXmk",
-            "https://www.youtube.com/watch?v=9G_sD5kWMC0",
-            "https://www.youtube.com/watch?v=XxqN67n9mYY",
-            "https://www.youtube.com/watch?v=Ub0EGUc5Xbw",
-            "https://www.youtube.com/watch?v=ndjf8YGOTXI",
-            "https://www.youtube.com/watch?v=kEUsf4INJkY",
-            "https://www.youtube.com/watch?v=lQ5gQ_xaBt0",
-            "https://www.youtube.com/watch?v=dYuRbOkcDoc",
-            "https://www.youtube.com/watch?v=ghfW0rOy-XA",
-            "https://www.youtube.com/watch?v=gWigbHEV6TQ",
-            "https://www.youtube.com/watch?v=TSk-jluTHxM"
+    "photos": {
+        "active": "../assets/images/1969 Soumyendu Guha Kahlar USA Founder.jpg",
+        "items": [
+            "../assets/images/1975 Kahlar at Academy of Fine Arts.jpg",
+            "../assets/images/1993 Kahlar Family.jpg",
+            "../assets/images/2018 Kahlar at NABC Atlantic City NJ.jpg"
+        ]
+    },
+    "2018_nabc": {
+        "active": "https://www.youtube.com/embed/KBvkojH8qR4?start=1",
+        "items": [
+            "https://www.youtube.com/embed/16gxY1rDBQ4",
+            "https://www.youtube.com/embed/_oi7nQBArpY",
+            "https://www.youtube.com/embed/gwV6urvJjgQ"
+        ]
+    },
+    "annual_day": {
+        "active": "https://www.youtube.com/embed/CxWsmQE0nw4?start=1",
+        "items": [
+            "https://www.youtube.com/embed/teTcJs0li48"
+        ]
+    },
+    "amphan_donations": {
+        "active": "https://www.youtube.com/embed/_WegXdhhZxY?start=1",
+        "items": [
+            "https://www.youtube.com/embed/orGM1b1kDaA",
+            "https://www.youtube.com/embed/lFcQuq5mlR0",
+            "https://www.youtube.com/embed/A6gz0uM8IBc",
+            "https://www.youtube.com/embed/yB7WgvHaoJE"
+        ]
+    },
+    "amphan_fundraisers": {
+        "active": "https://www.youtube.com/embed/wUwoUxHe5go?start=1",
+        "items": [
+            "https://www.youtube.com/embed/lLF1njDX0dc",
+            "https://www.youtube.com/embed/spNuhseSdqQ",
+            "https://www.youtube.com/embed/icLxFNBfJFw",
+            "https://www.youtube.com/embed/2q9gbA-sB5Q",
+            "https://www.youtube.com/embed/CrF48-IZpr0",
+            "https://www.youtube.com/embed/IWrIX_iNXmk",
+            "https://www.youtube.com/embed/9G_sD5kWMC0",
+            "https://www.youtube.com/embed/XxqN67n9mYY",
+            "https://www.youtube.com/embed/Ub0EGUc5Xbw",
+            "https://www.youtube.com/embed/ndjf8YGOTXI",
+            "https://www.youtube.com/embed/kEUsf4INJkY",
+            "https://www.youtube.com/embed/lQ5gQ_xaBt0",
+            "https://www.youtube.com/embed/dYuRbOkcDoc",
+            "https://www.youtube.com/embed/ghfW0rOy-XA",
+            "https://www.youtube.com/embed/gWigbHEV6TQ",
+            "https://www.youtube.com/embed/TSk-jluTHxM"
         ]
     }
 }
