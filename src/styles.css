@@ -3,6 +3,6 @@
 @import "~font-awesome/css/font-awesome.css";
 
 html body {
-    background-color:rgb(228, 228, 186);
-
+    background-color:rgba(17, 17, 16, 0.637);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }

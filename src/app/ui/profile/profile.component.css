@@ -27,7 +27,7 @@ html, body {
 }
 
 .btn-lesson{
-    background-color: #5fa044;
+    background-color: #121611;
     color: #fff;
     width: 100%;
 
@@ -39,6 +39,9 @@ html, body {
     width: 100%;
     padding: 1%;
     text-align: center;
+}
+.card-text{
+    text-align: center; 
 }
 .create-form{
     padding: 2%;

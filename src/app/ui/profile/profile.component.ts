@@ -14,7 +14,7 @@ import userdata from '../../../assets/users.json';
 export class ProfileComponent implements OnInit {
   page: string;
   public userIdList: { item: string }[];
-  public members: { user_id: string, name: string, role: string, url: string, bio_content: string[] }[];
+  public members: { user_id: string, name: string, role: string, url: string, description: string, bio_content: string[] }[];
 
 
   constructor(private modalService: NgbModal, private _Activatedroute: ActivatedRoute) {

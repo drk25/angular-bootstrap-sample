@@ -9,7 +9,7 @@
 		<img class="card-img-top" src="{{member.url}}" alt="Card image cap">
 		<div class="card-body">
 			<p class="card-text"><b>Name: </b>{{member.name}}</p>
-			<p class="card-text"><b>Role: </b>{{member.role}}</p>
+			<p class="card-text" *ngIf="member.role"><b>Role: </b>{{member.role}}</p>
 		</div>
         <div class="card-body" *ngFor="let bio of member.bio_content"> 
             <p class="card-text"><i class="fa fa-chevron-right" aria-hidden="true"></i><b>   {{bio}} </b> </p>
