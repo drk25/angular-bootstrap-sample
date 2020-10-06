@@ -1,10 +1,12 @@
-import { Component, OnInit, NgModuleRef } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-
 import { ProfiledataComponent } from '../profiledata/profiledata.component';
 import { ActivatedRoute } from '@angular/router';
-import userdata from '../../../assets/users.json';
+
+import { UserService } from '../../service/user.service';
+import { User } from '../../model/user.model';
+
+
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
@@ -14,48 +16,40 @@ import userdata from '../../../assets/users.json';
 export class ProfileComponent implements OnInit {
   page: string;
   public userIdList: { item: string }[];
-  public members: { user_id: string, name: string, role: string, usertype: string[],  url: string, description: string, bio_content: string[] }[];
+  public members: User[];
+  public filteredMembers: User[];
 
+  constructor(private modalService: NgbModal, private userService: UserService, private _Activatedroute: ActivatedRoute) { }
 
-  constructor(private modalService: NgbModal, private _Activatedroute: ActivatedRoute) {
-
-  }
-  ngOnInit(): void {
+  ngOnInit() {
     this._Activatedroute.paramMap.subscribe(params => {
       this.page = params.get('page');
-      console.log(this.page);
-      console.log(userdata);
-      //this.userIdList = userdata['usertype'][this.page];
-      //const userdataObj = userdata['userdata'];
-      //console.log(userdataObj);
-      this.members = new Array();
-      for (var i = 0; i < userdata.length; i++) {
-        console.log("What is I " + i);
-        let userObj = userdata[i];
-        console.log("Before fetching type" + userObj);
-        let type = userObj.usertype;
-        type.forEach(element => {
-          console.log("Before if block" + element)
-          if (element == this.page){
-            console.log("here " + element);
-            this.members.push(userObj);
-          }
+      this.userService.getUsersByUserType(this.page).subscribe(actionArray => {
+        this.members = actionArray.docs.map(item => {
+          return {
+            id: item.data()['id'],
+            name: item.data()['name'],
+            phone: item.data()['phone'],
+            email: item.data()['email'],
+            role: item.data()['role'],
+            url: item.data()['url'],
+            userType: item.data()['userType'],
+            description: item.data()['description'],
+            bio_content: item.data()['bio_content']
+          } as User;
+
         });
-        
-      }
+      });
     });
   }
-  open(usr: any) {
-    console.log(usr);
 
-    //const userdataObj = userdata['userdata'];
-    //const obj = userdata[id];
-    //console.log(obj);
+
+  open(usr: any) {
     const modalRef = this.modalService.open(ProfiledataComponent);
     modalRef.componentInstance.member = usr;
-    }
-
-
   }
+
+
+}
 
 

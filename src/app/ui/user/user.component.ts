@@ -40,7 +40,9 @@ export class UserComponent implements OnInit {
       role: '',
       phone: null,
       userType: [],
-      description: []
+      description: [],
+      url: '',
+      bio_content: [],
     }
   }
   onSubmit(form: NgForm) {
