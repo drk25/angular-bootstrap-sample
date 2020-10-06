@@ -1,63 +1,9 @@
-{
-    "usertype": {
-        "store": [
-            "id22",
-            "id23"
-        ],
-        "board": [
-            "id1",
-            "id2",
-            "id3"
-        ],
-        "faculty": [
-            "id1",
-            "id4",
-            "id5"
-        ],
-        "guestperformers": [
-            "id24",
-            "id25",
-            "id26",            
-            "id27",
-            "id28",
-            "id29",            
-            "id30",
-            "id31",
-            "id32",            
-            "id33",
-            "id34",
-            "id35",            
-            "id36",
-            "id37",
-            "id38",            
-            "id39",
-            "id40",
-            "id41",            
-            "id42"
-        ],
-        "students": [
-            "id2",
-            "id3",
-            "id9",
-            "id10",
-            "id11",
-            "id12",
-            "id13",
-            "id14",
-            "id15",
-            "id16",
-            "id17",
-            "id18",
-            "id19",
-            "id20",
-            "id21"
-        ]
-    },
-    "userdata": {
-        "id1": {
+[
+            {
             "user_id": "id1",
             "name": "Dr. Soumendu Guha",
             "role": "President",
+            "usertype":["board", "faculty"],
             "url": "../assets/images/Soumendu_Guha.jpg",
             "bio_content": [
                 "a",
@@ -65,10 +11,11 @@
                 "c"
             ]
         },
-        "id2": {
+        {
             "user_id": "id2",
             "name": "Kumkum Bagchi",
             "role": "VicePresident",
+            "usertype":["board", "students"],
             "url": "../assets/images/Kumkum_Bagchi.jpg",
             "bio_content": [
                 "Was introduced to music at the tender age of 4 whilst in London, under the guidance of Ms. Arati Bhattacharya, an eminent artist from AIR",
@@ -81,10 +28,11 @@
                 "She currently resides in the Washington DC Metro area, USA and works as an IT Program Manager"
             ]
         },
-        "id3": {
+        {
             "user_id": "id3",
             "name": "Faisal Quader",
             "role": "Director",
+            "usertype":["board", "students"],
             "url": "../assets/images/Faisal_Quader.jpg",
             "bio_content": [
                 "Started music at the age of 4 with family, especially his sister",
@@ -94,10 +42,11 @@
                 "He is Currently learning and practicing Rabindra Sangeet at Kahlar under Dr. Soumyendu Guha along with many other well renowned  Gurus such as Dr. Debashish Raychaudhuri, Ms. Shreya Guhathakurta and Dr. Shamik Pal"
             ]
         },
-        "id4": {
+        {
             "user_id": "id4",
             "name": "Dr. Debashish Rauchaudhuri",
             "role": "",
+            "usertype":["faculty"],
             "url": "../assets/images/Debashish_Raychaudhuri.jpg",
             "bio_content": [
                 "a",
@@ -105,10 +54,11 @@
                 "c"
             ]
         },
-        "id5": {
+        {
             "user_id": "id5",
             "name": "Rohini Raychaudhuri",
             "role": "",
+            "usertype":["faculty"],
             "url": "../assets/images/Rohini_Raychaudhuri.jpg",
             "bio_content": [
                 "a",
@@ -116,10 +66,11 @@
                 "c"
             ]
         },
-        "id6": {
+        {
             "user_id": "id6",
             "name": "Sangeeta Ganguly",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Sangeeta_Ganguly.jpg",
             "bio_content": [
                 "Trained in Rabindrasangeet from Dakshinee",
@@ -131,10 +82,11 @@
                 "Sangeeta currently lives and works as an IT Professional in Colorado"
             ]
         },
-        "id7": {
+        {
             "user_id": "id7",
             "name": "Debangana Sarker",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Debangana_Sarker.jpg",
             "bio_content": [
                 "a",
@@ -142,10 +94,11 @@
                 "c"
             ]
         },
-        "id8": {
+        {
             "user_id": "id8",
             "name": "Shamik Pal",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Shamik_Pal.jpg",
             "bio_content": [
                 "a",
@@ -153,59 +106,67 @@
                 "c"
             ]
         },
-        "id9": {
+        {
             "user_id": "id9",
             "name": "Aparajita De",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Aparajita_De.jpg",
             "bio_content": []
         },
-        "id10": {
+        {
             "user_id": "id10",
             "name": "Arundhati Ghosh",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Arundhati_Ghosh.jpg",
             "bio_content": []
         },
-        "id11": {
+        {
             "user_id": "id11",
             "name": "Bhaskar Ganguli",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Bhaskar_Ganguli.jpg",
             "bio_content": []
         },
-        "id12": {
+        {
             "user_id": "id12",
             "name": "Dipannita Dutta",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Dipannita_Dutta.jpg",
             "bio_content": []
         },
-        "id13": {
+        {
             "user_id": "id13",
             "name": "Ipsita Mookherjee",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Ipsita_Mookherjee.jpg",
             "bio_content": []
         },
-        "id14": {
+        {
             "user_id": "id14",
             "name": "Madhurima Sen Lahiri",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Madhurima_Sen_Lahiri.jpg",
             "bio_content": []
         },
-        "id15": {
+        {
             "user_id": "id15",
             "name": "Moumita Gupta",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Moumita_Gupta.jpg",
             "bio_content": []
         },
-        "id16": {
+        {
             "user_id": "id16",
             "name": "Nazia Nawshad Shawon",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Nazia_Nawshad_Shawon.jpg",
             "bio_content": [
                 "Nazia’s passion for music started at a very tender age in 1982 when she was a second grader. Her parents were avid listeners of Tagore music. Their love for this eminent poet has determined her fate as a Tagore musician. Her mother was a folk song-lover so she decided to train her in both types of music - Tagore and Folk",
@@ -218,17 +179,19 @@
                 "In US, Nazia pursued her career in technical writing and business analysis. Currently she resides in the Washington DC Metro area, USA"
             ]
         },
-        "id17": {
+        {
             "user_id": "id17",
             "name": "Patricia Gomez",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Patricia_Gomez.jpg",
             "bio_content": []
         },
-        "id18": {
+        {
             "user_id": "id18",
             "name": "Rajdeep Bhaduri",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Rajdeep_Bhaduri.jpg",
             "bio_content": [
                 "Inspiration and love to learn Rabindrasangeet started at home from Mother, Grandmother and Aunt",
@@ -240,175 +203,190 @@
                 "An Engineering graduate and IT Professional living in the Washington DC Metro area"
             ]
         },
-        "id19": {
+        {
             "user_id": "id19",
             "name": "Shamima Kondokar",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Shamima_Kondokar.jpg",
             "bio_content": []
         },
-        "id20": {
+        {
             "user_id": "id20",
             "name": "Shimi Naureen Ahmad",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Shimi_Naureen_Ahmad.jpg",
             "bio_content": []
         },
-        "id21": {
+        {
             "user_id": "id21",
             "name": "Shovan Naskar",
             "role": "",
+            "usertype":["students"],
             "url": "../assets/images/Shovan_Naskar.jpg",
             "bio_content": []
         },
-        "id22": {
+        {
             "user_id": "id22",
             "name": "Surantari",
             "role": "",
+            "usertype":["store"],
             "url": "../assets/images/Surantari.jpg",
             "description": "In 2004, Kahlar produced Gitabitan-Live-2, compiled by Dakshinee, which comprises of 683 Tagore songs, dance dramas like Chitrangada., Shyama and Chandalika and operas like Balmiki Pratibha and Mayar Khela. These creations of Tagore, one of modern India's greatest poets and a Nobel laureate, are in a set of compact discs with original notations. The text of the lyrics is available in both Bangla and English. Available for purchase now at our Kahlar, Silver Spring location, MD, USA for $40",
             "bio_content": []
         },
-        "id23": {
+        {
             "user_id": "id23",
             "name": "Gitobitan Live",
             "role": "",
+            "usertype":["store"],
             "url": "../assets/images/Gitobitan_Live.jpg",
             "description": "n 2017, Kahlar produced an album “Surantari-Chhandantari-Pathantori” in collaboration with Hindustan Record of Kolkata. Eminent Rabindrasangeet Artistes from Kolkata, India, have come together in this album to produce an album which is one of its kind. This album is based on Tagore’s songs which have somewhat similar lyrics but different rhythms and tunes. Available for purchase now on Amazon.in: https://www.amazon.in/Surantori-Chhandantori-Pathantori. Also available at our Kahlar, Silver Spring location, MD, USA for $10",
             "bio_content": []
         },
-        "id24": {
+        {
             "user_id": "id24",
             "name": "Aditi Bhattacharya",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Aditi_Bhattacharya.jpg",
             "bio_content": []
         },
-        "id25": {
+        {
             "user_id": "id25",
             "name": "Agnibha Bandyopadhyay",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Agnibha_Bandyopadhyay.jpg",
             "bio_content": []
         },
-        "id26": {
+        {
             "user_id": "id26",
             "name": "Apala Basu Sen",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Apala_Basu_Sen.jpg",
             "bio_content": []
         },
-        "id27": {
+        {
             "user_id": "id27",
             "name": "Arindam Bandyopadhyay",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Arindam_Bandyopadhyay.jpg",
             "bio_content": []
         },
-        "id28": {
+        {
             "user_id": "id28",
             "name": "Arpita Dutta",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Arpita_Dutta.jpg",
             "bio_content": []
         },
-        "id29": {
+        {
             "user_id": "id29",
             "name": "Arpita Rakshit Sabud",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Arpita_Rakshit_Sabud.jpg",
             "bio_content": []
         },
-        "id30": {
+        {
             "user_id": "id30",
             "name": "Ayan Rivu Sinha",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Ayan_Rivu_Sinha.jpg",
             "bio_content": []
         },
-        "id31": {
+        {
             "user_id": "id31",
             "name": "Debangana Sarker",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Debangana_Sarker.jpg",
             "bio_content": []
         },
-        "id32": {
+        {
             "user_id": "id32",
             "name": "Enakshi Chattopadhyay",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Enakshi_Chattopadhyay.jpg",
             "bio_content": []
         },
-        "id33": {
+        {
             "user_id": "id33",
             "name": "Manini Mukhopadhyay",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Manini_Mukhopadhyay.jpg",
             "bio_content": []
         },
-        "id34": {
+        {
             "user_id": "id34",
             "name": "Nidrita Mitra Sinha",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Nidrita_Mitra_Sinha.jpg",
             "bio_content": []
         },
-        "id35": {
+        {
             "user_id": "id35",
             "name": "Pramita Mallick",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Pramita_Mallick.jpg",
             "bio_content": []
         },
-        "id36": {
+        {
             "user_id": "id36",
             "name": "Prosanto Ghosh",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Prosanto_Ghosh.jpg",
             "bio_content": []
         },
-        "id37": {
+        {
             "user_id": "id37",
             "name": "Saikat S Ray",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Saikat_S_Ray.jpg",
             "bio_content": []
         },
-        "id38": {
-            "user_id": "id38",
-            "name": "Sangeeta Ganguly",
-            "role": "",
-            "url": "../assets/images/Sangeeta_Ganguly.jpg",
-            "bio_content": []
-        },
-        "id39": {
+        {
             "user_id": "id39",
             "name": "Shamik Pal",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Shamik_Pal.jpg",
             "bio_content": []
         },
-        "id40": {
+        {
             "user_id": "id40",
             "name": "Shreetama Roy",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Shreetama_Roy.jpg",
             "bio_content": []
         },
-        "id41": {
+        {
             "user_id": "id41",
             "name": "Srovonti Bosu",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Srovonti_Bosu.jpg",
             "bio_content": []
         },
-        "id42": {
+        {
             "user_id": "id42",
             "name": "Suranjana Goswami",
             "role": "",
+            "usertype":["guestperformers"],
             "url": "../assets/images/Suranjana_Goswami.jpg",
             "bio_content": []
         }
-    }
-}
+    ]

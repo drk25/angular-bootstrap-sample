@@ -14,7 +14,7 @@ import userdata from '../../../assets/users.json';
 export class ProfileComponent implements OnInit {
   page: string;
   public userIdList: { item: string }[];
-  public members: { user_id: string, name: string, role: string, url: string, description: string, bio_content: string[] }[];
+  public members: { user_id: string, name: string, role: string, usertype: string[],  url: string, description: string, bio_content: string[] }[];
 
 
   constructor(private modalService: NgbModal, private _Activatedroute: ActivatedRoute) {
@@ -25,28 +25,34 @@ export class ProfileComponent implements OnInit {
       this.page = params.get('page');
       console.log(this.page);
       console.log(userdata);
-      this.userIdList = userdata['usertype'][this.page];
-      const userdataObj = userdata['userdata'];
-      console.log(userdataObj);
+      //this.userIdList = userdata['usertype'][this.page];
+      //const userdataObj = userdata['userdata'];
+      //console.log(userdataObj);
       this.members = new Array();
-      for (var i = 0; i < this.userIdList.length; i++) {
-        console.log(i);
-        let id = this.userIdList[i];
-        console.log(id);
-        const obj = userdataObj[id+''];
-        console.log(obj);
-        this.members.push(obj);
+      for (var i = 0; i < userdata.length; i++) {
+        console.log("What is I " + i);
+        let userObj = userdata[i];
+        console.log("Before fetching type" + userObj);
+        let type = userObj.usertype;
+        type.forEach(element => {
+          console.log("Before if block" + element)
+          if (element == this.page){
+            console.log("here " + element);
+            this.members.push(userObj);
+          }
+        });
+        
       }
     });
   }
-  open(id: string) {
-    console.log(id);
+  open(usr: any) {
+    console.log(usr);
 
-    const userdataObj = userdata['userdata'];
-    const obj = userdataObj[id];
-    console.log(obj);
+    //const userdataObj = userdata['userdata'];
+    //const obj = userdata[id];
+    //console.log(obj);
     const modalRef = this.modalService.open(ProfiledataComponent);
-    modalRef.componentInstance.member = obj;
+    modalRef.componentInstance.member = usr;
     }
 
 
