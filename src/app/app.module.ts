@@ -8,6 +8,8 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { RegistrationService } from './service/registration.service';
 import { UserService } from './service/user.service';
+import { MediaService } from './service/media.service';
+
 
 import { AppComponent } from './app.component';
 import { routingComponents, AppRoutingModule } from './routes/app-routing.module';
@@ -47,7 +49,7 @@ import { UserComponent } from './ui/user/user.component';
     AngularFireModule.initializeApp(firebasebDBenv.firebaseConfig),
     AngularFireDatabaseModule
   ],
-  providers: [RegistrationService,UserService],
+  providers: [RegistrationService,UserService,MediaService],
   bootstrap: [AppComponent]
 })
 

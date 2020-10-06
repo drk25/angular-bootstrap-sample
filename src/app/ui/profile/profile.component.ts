@@ -15,9 +15,7 @@ import { User } from '../../model/user.model';
 
 export class ProfileComponent implements OnInit {
   page: string;
-  public userIdList: { item: string }[];
   public members: User[];
-  public filteredMembers: User[];
 
   constructor(private modalService: NgbModal, private userService: UserService, private _Activatedroute: ActivatedRoute) { }
 
