@@ -1,36 +1,31 @@
 <div class="card">
-    <h5 class="card-header">All User list</h5>
-    <div class="card-body">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone Number</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr *ngFor="let user of users">
-                    <td scope="col"> 
-                        {{ user.payload.doc.data().name }}
-                    </td>
-                    <td scope="col">
-                        {{ user.payload.doc.data().email }}
-                    </td>
-                    <td scope="col">
-                        {{ user.payload.doc.data().phone }}
-                    </td>
-                    <!-- <td>
-                        <span *ngFor="let coffee of user.payload.doc.data().user">
-                            {{ user }}
-                        </span>
-                    </td> -->
-                    <td>
-                    <button type="button" class="btn btn-danger" [hidden]="user.payload.doc.data().completed" (click)="delUser(user)">Delete</button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+  <h5 class="card-header">All User list</h5>
+  <div class="card-body">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <!-- <th>id</th> -->
+          <th>name</th>
+          <th>phone</th>
+          <th>email</th>
+          <th>role</th>
+          <th>userType</th>
+          <th>description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let emp of list">
+          <!-- <td scope="col" >{{emp.id}}}</td> -->
+          <td scope="col" >{{emp.name}}</td>
+          <td scope="col" >{{emp.phone}}</td>
+          <td scope="col" >{{emp.email}}</td>
+          <td scope="col" >{{emp.role}}</td>
+          <td scope="col" >{{emp.userType}}</td>
+          <td scope="col" >{{emp.description}}</td>
+          <td scope="col"><a class="btn text-warning" (click)="onEdit(emp)"><i class="fa fa-edit"></i></a></td>
+          <td scope="col"><a class="btn text-danger" (click)="onDelete(emp.id)"><i class="fa fa-trash"></i></a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>

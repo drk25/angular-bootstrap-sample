@@ -1,109 +1,122 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-  <div class="container-fluid px-0">
-    <div class="row w-100">
-      <div class="col-2">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"
-          (click)="isShown = !isShown">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
+<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"
+      (click)="isShown = !isShown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="col-10">
-        <div class="collapse justify-content-end navbar-collapse"
-          id="navbarTogglerDemo03">
-          <ul class="navbar-nav mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#" routerLink="/home">Home</a>
-            </li>
-            <li class="nav-item dropdown">
+    <div class="collapse justify-content-end navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            About Us
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" [routerLink]="['/layout','aboutus']"
+              routerLinkActive="router-link-active">Introduction</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/profile','board']" routerLinkActive="router-link-active">Board</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/profile','faculty']"
+              routerLinkActive="router-link-active">Faculty</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/profile','guestfaculty']"
+              routerLinkActive="router-link-active">Guest Faculty</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/profile','guestperformers']"
+              routerLinkActive="router-link-active">Guest Performers</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/profile','students']"
+              routerLinkActive="router-link-active">Students</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/layout','membership']"
+              routerLinkActive="router-link-active">Membership</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About Us
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" [routerLink]="['/layout','aboutus']" routerLinkActive="router-link-active" >Introduction</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/profile','board']" routerLinkActive="router-link-active">Board</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/profile','faculty']" routerLinkActive="router-link-active">Faculty</a>
-                <div class="dropdown-divider"></div>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/profile','guestperformers']" routerLinkActive="router-link-active">Guest Performers</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/profile','students']" routerLinkActive="router-link-active">Students</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/layout','membership']" routerLinkActive="router-link-active">Membership</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Education
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" [routerLink]="['/layout','curriculum']" routerLinkActive="router-link-active" >Curriculum</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/layout','inpersonclasses']" routerLinkActive="router-link-active">In-Person Classes</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/layout','onlineclasses']" routerLinkActive="router-link-active">Online Classes</a>
-                <!-- <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Worshops</a> -->
-              </div>
-            </li>
-            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Education
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" [routerLink]="['/layout','curriculum']"
+              routerLinkActive="router-link-active">Curriculum</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/layout','inpersonclasses']"
+              routerLinkActive="router-link-active">In-Person Classes</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/layout','onlineclasses']"
+              routerLinkActive="router-link-active">Online Classes</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Worshops</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Events
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" [routerLink]="['/layout','pastperformances']" routerLinkActive="router-link-active" >Past Performances</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/layout','upcomingperformances']" routerLinkActive="router-link-active">Upcoming Performances</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/layout','fundraisers']" routerLinkActive="router-link-active">Fundraisers</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" [routerLink]="['/layout','pastperformances']"
+              routerLinkActive="router-link-active">Past Performances</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/layout','upcomingperformances']"
+              routerLinkActive="router-link-active">Upcoming Performances</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/layout','fundraisers']"
+              routerLinkActive="router-link-active">Fundraisers</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Gallery
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" [routerLink]="['/media','photos']" routerLinkActive="router-link-active" >Photos</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item">Videos</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/media','amphan_donations']" routerLinkActive="router-link-active">2020 Covid-19 Impacted & Amphan Relief Donations</a>
-                <a class="dropdown-item" [routerLink]="['/media','amphan_fundraisers']" routerLinkActive="router-link-active" >2020 Covid-19 Impacted & Amphan Relief Fundraisers</a>
-                <a class="dropdown-item" [routerLink]="['/media','annual_day']" routerLinkActive="router-link-active" >2019 Kahlar Annual Day Videos</a>
-                <a class="dropdown-item" [routerLink]="['/media','2018_nabc']" routerLinkActive="router-link-active">2018 NABC</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Gallery
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" [routerLink]="['/media','photos']" routerLinkActive="router-link-active">Photos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item">Videos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/media','videos']" routerLinkActive="router-link-active">2020
+              Covid-19 Impacted & Amphan Relief Donations</a>
+            <a class="dropdown-item" [routerLink]="['/media','photos']" routerLinkActive="router-link-active">2020
+              Covid-19 Impacted & Amphan Relief Fundraisers</a>
+            <a class="dropdown-item" [routerLink]="['/media','photos']" routerLinkActive="router-link-active">2019
+              Kahlar Annual Day Videos</a>
+            <a class="dropdown-item" [routerLink]="['/media','videos']" routerLinkActive="router-link-active">2018
+              NABC</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Other
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" [routerLink]="['/layout','supportus']"
+              routerLinkActive="router-link-active">Support Us</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/layout','proposals']"
+              routerLinkActive="router-link-active">Proposals</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/profile','store']" routerLinkActive="router-link-active">Store</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="">Online Paymrnt</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['/user']" routerLinkActive="router-link-active">Users</a>
+          </div>
+        </li>
+      </ul>
 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Other
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" [routerLink]="['/layout','supportus']" routerLinkActive="router-link-active" >Support Us</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/layout','proposals']" routerLinkActive="router-link-active">Proposals</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/profile','store']" routerLinkActive="router-link-active">Store</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item"href="">Online Paymrnt</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" [routerLink]="['/user-list']" routerLinkActive="router-link-active">Users</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
   </div>
 </nav>

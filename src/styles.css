@@ -13,7 +13,9 @@ html body {
 @media (max-width: 768px) {
 
 }
+
 @media (max-width: 576px) {
+  
 
 }
 
@@ -58,6 +60,7 @@ will-change: transform;
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
   padding: 1rem;
+
 }
 
 
