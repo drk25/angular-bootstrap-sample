@@ -6,12 +6,20 @@ import { AngularFirestore } from '@angular/fire/firestore';
   providedIn: 'root'
 })
 export class UserService {
+
   formData: User;
+
   
-  constructor(private firestore: AngularFirestore) { }
+  constructor(public firestore: AngularFirestore) {  
 
 
+  }
   getUsers() {
     return this.firestore.collection('Users').snapshotChanges();
+  }
+  getUsersByUserType(usertype: string) {
+
+   return this.firestore.collection('Users', ref => ref.where('usertype','array-contains', usertype)).get();
+    
   }
 }
