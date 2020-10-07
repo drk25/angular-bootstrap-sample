@@ -1,9 +1,41 @@
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 5px;
+  border-radius: 15%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-paypal {
+  background: #009cde;
+  color: white;
   }
+
+  .fa-envelope {
+    background: #012169;
+    color: white;
+    }
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

@@ -12,6 +12,7 @@ import { Media } from '../../model/media.model'
 export class MediaComponent implements OnInit {
   page: string;
   public media: Media[];
+
   public sanitizer: DomSanitizer;
   constructor(private mediaService: MediaService, private _Activatedroute: ActivatedRoute, sanitizer: DomSanitizer) {
     this.sanitizer = sanitizer;
@@ -21,7 +22,7 @@ export class MediaComponent implements OnInit {
     this._Activatedroute.paramMap.subscribe(params => {
       this.page = params.get('page');
       if (this.page == null)
-      this.page = 'home';
+        this.page = 'home';
       this.mediaService.getMediaByGalleryType(this.page).subscribe(actionArray => {
         this.media = actionArray.docs.map(item => {
           let tempArr = [];
@@ -36,7 +37,9 @@ export class MediaComponent implements OnInit {
         });
       });
     });
+    
   }
+  
   photoURL(anUrl: string): SafeResourceUrl {
     return this.sanitizer.bypassSecurityTrustResourceUrl(anUrl);
 

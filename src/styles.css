@@ -3,9 +3,19 @@
 @import "~font-awesome/css/font-awesome.css";
 
 html body {
-    background-color:rgba(129, 112, 98, 0.637);
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color:rgba(241, 236, 232, 0.637);
 }
+* {
+
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+/* html {
+  height: 100%;
+} */
+/* body {
+  min-height: 100%;
+} */
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
@@ -58,28 +68,7 @@ background-position: center center;
 will-change: transform;
 }
 /*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
+/* [class*="col-"] {
   padding: 1rem;
 
-}
-
-
-
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
+} */
