@@ -1,5 +1,8 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
+<nav class="navbar navbar-secondary bg-secondary navbar-expand-md sticky-top">
   <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="../../../assets/images/kahlar.png" width="70px" height="70px" alt="">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"
       (click)="isShown = !isShown">
@@ -9,10 +12,10 @@
     <div class="collapse justify-content-end navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#" routerLink="/home">Home</a>
+          <a class="nav-link text-light" href="#" routerLink="/home">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             About Us
           </a>
@@ -38,7 +41,7 @@
         <li class="nav-item dropdown">
 
 
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Education
           </a>
@@ -56,7 +59,7 @@
         </li>
         <li class="nav-item dropdown">
 
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Events
           </a>
@@ -73,7 +76,7 @@
         </li>
         <li class="nav-item dropdown">
 
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Gallery
           </a>
@@ -93,7 +96,7 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Other
           </a>
@@ -105,10 +108,10 @@
               routerLinkActive="router-link-active">Proposals</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" [routerLink]="['/profile','store']" routerLinkActive="router-link-active">Store</a>
-            <div class="dropdown-divider"></div>
+            <!-- <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="">Online Paymrnt</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" [routerLink]="['/user']" routerLinkActive="router-link-active">Users</a>
+            <a class="dropdown-item" [routerLink]="['/user']" routerLinkActive="router-link-active">Users</a> -->
           </div>
         </li>
       </ul>
