@@ -14,7 +14,6 @@ const routes: Routes = [
   { path: 'profile/:page', component: ProfileComponent },
   { path: 'media/:page', component: MediaComponent },
   { path: 'auth/:page', component: SignupLoginComponent },
-  // { path: '/', redirectTo: 'home'},
   { path: 'home', component: HomeComponent },
   { path: 'user', component: UserComponent },
   { path: 'user-list', component: UserListComponent },
