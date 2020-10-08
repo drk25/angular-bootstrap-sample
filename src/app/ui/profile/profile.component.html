@@ -1,9 +1,9 @@
   <div class="container" *ngIf="members">
 	<div class="col">
 	<div class="row">
-		<div class="col-12 col-sm-6 col-md-4 col-lg-3 lesson-card" *ngFor="let member of members">
+		<div class="lesson-card" *ngFor="let member of members">
 			<div class="card lesson-border">
-				<img class="card-img-top" src="{{member.url}}" alt="Card image cap">
+				<img class="card-img-top" src="{{member.url}}" alt="Card image cap" height="auto" width="auto">
 				<div class="card-body">
 					<p class="card-text" text-align="center"><b>{{member.name}}</b></p>
 					<!-- <p class="card-text"><b>Date: </b>{{lesson.startdate}}</p>
