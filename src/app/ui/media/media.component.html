@@ -3,10 +3,10 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active embed-responsive embed-responsive-16by9">
-        <img [src]="gallery.active" class="embed-responsive-item" alt="...">
+        <img [src]="gallery.active" width="100%" class="embed-responsive-item" alt="...">
       </div>
       <div class="carousel-item embed-responsive embed-responsive-16by9" *ngFor="let slide of gallery.items">
-        <img [src]="slide" class="embed-responsive-item" alt="...">
+        <img [src]="slide" width="100%" class="embed-responsive-item" alt="...">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -26,12 +26,12 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" [src]="gallery.active" frameborder="0"
+        <iframe class="embed-responsive-item" width="100%" [src]="gallery.active" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
       <div class="carousel-item embed-responsive embed-responsive-16by9" *ngFor="let slide of gallery.items">
-        <iframe class="embed-responsive-item" [src]="slide" frameborder="0"
+        <iframe class="embed-responsive-item" width="100%" [src]="slide" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>

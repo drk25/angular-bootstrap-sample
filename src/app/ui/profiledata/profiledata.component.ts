@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-// import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import {NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -27,5 +26,4 @@ export interface Member {
   role: string;
   description: string;
   bio_content: string[];
-  // modalType: ModalType = ModalType.INFO;
 }
