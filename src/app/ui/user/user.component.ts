@@ -13,7 +13,7 @@ export class UserComponent implements OnInit {
 
   checkboxes = ["Student","Board","Faculty",""];
   checkboxGroup: FormGroup;
-  constructor(private userService: UserService, private fb: FormBuilder, private firestore: AngularFirestore) { }
+  constructor(public userService: UserService, private fb: FormBuilder, private firestore: AngularFirestore) { }
   registerForm = new FormGroup({
     name: new FormControl(''),
     email: new FormControl(''),
