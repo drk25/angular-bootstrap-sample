@@ -6,16 +6,17 @@
             "Kahlar was mainly interested to advance their member’s education in Rabindrasangeet and in classical music. Mr. Subinoy Roy, Ms. Malati Ghosal, Mr. Ramesh Banerjee, and Mr. Ashoktaru Banerjee were teachers of Kahlar and music lessons were held at the Brahmo Samaj of Kolkata. Kahlar also held monthly musical soiree of Rabindrasangeet with guest artists as Kanika Banerjee, Swapan Gupta, Bandana Sinha, Sumitra Sen and other reputed Rabindrasangeet singers in the late 60’s. Kahlar produced a dance drama 'Shapmochan' in 1967 then performed in Calcutta Radio for Yuva-Bharati (young artistes). In 1976, Kahlar presented in Academy of Fine arts, a musical based on Rabindrasangeet and its roots in Hindustani Classical music. It was a novel concept then, presented with raga based Rabindrasangeet along with the original ragas in vocal and sitar recitals.",
             "One of the founders of Kahlar was Dr. Soumyendu Guha who migrated to USA in 1969 for higher studies from Indiana University, Bloomington, Indiana. After getting his PhD in physics, he went back to Kolkata in 1975 and again joined the Kahlar group. Dr. Guha decided to return to the States in USA after 1976 and has been living in the state of Maryland since 1980. He opened a school in 1990 teaching Rabindrasangeet to the local Bengali community free of charge. In the past 30 years, many students have joined and left, and Kahlar became a non-profit organization in 2001."
         ],
-        "headerContent": "",
+        "headerContent": "About Us",
         "footerContent": "Our current mission includes teaching Rabindrasangeet to students weekly. Teachers are from Kolkata and USA and online classes are available. Kahlar has also been involved in multiple fundraising efforts to help those in need.",
         "listHeader": "",
         "listItems": []
     },
     "proposals": {
         "contents": [
+            "Kahlar welcomes your proposals.<br>Kahlar is looking to partner and work with talented musicians and other artists. If you are an artist involved with Indian Music or Dance and have a proposal for a concert, workshop, lecture/ demonstration or other events, we would love to hear from you.",
             "Kahlar is looking to partner and work with talented musicians and other artists. If you are an artist involved with Indian Music or Dance and have a proposal for a concert, workshop, lecture/ demonstration or other events, we would love to hear from you."
         ],
-        "headerContent": "Kahlar welcomes your proposals.<br>Kahlar is looking to partner and work with talented musicians and other artists. If you are an artist involved with Indian Music or Dance and have a proposal for a concert, workshop, lecture/ demonstration or other events, we would love to hear from you.",
+        "headerContent": "Proposals",
         "footerContent": "We look forward to hearing from you!",
         "listHeader": "Please submit your proposal to music_group@kahlar.com and include in your email the following information:",
         "listItems": [
@@ -27,9 +28,10 @@
     },
     "supportus": {
         "contents": [
+            "Please Support Us.Kahlar is tax exempt under section 501(c)(3) of the IRS as a non-profit organization. Your fully tax-deductible donation to Kahlar is vital in ensuring the organization fulfills its mission and continues to grow. Your donation will directly help arrange for future quality concerts and workshops as well as providing help to those in need.If you would like to send a check, please make your check payable to Kahlar Inc., and mail to our mailing address listed below.  You can also send your payment via Paypal by clicking the quick link below."
         ],
-        "headerContent": "Please Support Us.<br>Kahlar is tax exempt under section 501(c)(3) of the IRS as a non-profit organization. Your fully tax-deductible donation to Kahlar is vital in ensuring the organization fulfills its mission and continues to grow. Your donation will directly help arrange for future quality concerts and workshops as well as providing help to those in need.If you would like to send a check, please make your check payable to Kahlar Inc., and mail to:  Technuf, 40 W Gude Drive, Suite 220 Rockville, Maryland 20850, USA You can also send your payment via Paypal to us.",
-        "footerContent": "If you would like to send a check, please make your check payable to Kahlar Inc , and mail to our Mailing address listed below",
+        "headerContent": "Support Us",
+        "footerContent": "If you would like to send a check, please make your check payable to Kahlar Inc., and mail to our Mailing address listed below",
         "listHeader": "Kahlar has also been involved in multiple fundraising efforts to help those in need and has contributed funds to:",
         "listItems": [
             "Amphan victims in Kolkata - India",
@@ -38,9 +40,11 @@
         ]
     },
     "curriculum": {
-        "contents": [],
-        "headerContent": "Kahlar offers a versatile curriculum, though the main focus is on Rabindrasangeet. The course curriculum is designed by Dr. Soumyendu Guha, Dr. Debashish Raychaudhuri and Rohini Raychaudhuri based on the music knowledge and competency levels of the students. The curriculum is subject to change based on evolving needs.",
-        "footerContent": "If you are interested to know more, please feel free to contact us by clicking the link below.",
+        "contents": [
+            "Kahlar offers a versatile curriculum, though the main focus is on Rabindrasangeet. The course curriculum is designed by Dr. Soumyendu Guha, Dr. Debashish Raychaudhuri and Rohini Raychaudhuri based on the music knowledge and competency levels of the students. The curriculum is subject to change based on evolving needs."
+        ],
+        "headerContent": "Curriculum",
+        "footerContent": "If you are interested to know more, please feel free to contact us by clicking the quick link below.",
         "listHeader": "The curriculum has embraced:",
         "listItems": [
             "Songs from Tagore’s Geetinatyas (Operas) and Nrityanatyas (Dance Dramas). Songs from Shapmochon have been taught and currently, songs from Shyama are being mastered",
@@ -52,10 +56,11 @@
     },
     "membership": {
         "contents": [
+            "To be part of our Kahlar family and to be able to participate in any of Kahlar’s activities, we encourage you to become a member of Kahlar. Kahlar Annual Membership is currently $50.",
             "Kahlar is tax exempt under section 501(c)(3) of the IRS as a non-profit organization. Your fully tax-deductible donation to Kahlar is vital in ensuring the organization fulfills its mission and continues to grow. Your donation will directly help arrange for future quality concerts and workshops as well as providing help to those in need. If you would like to send a check, please make your check payable to Kahlar Inc., and mail to the address listed below. You can also send your payment via Paypal to us by clicking the link below."
         ],
-        "headerContent": "To be part of our Kahlar family and to be able to participate in any of Kahlar’s activities, we encourage you to become a member of Kahlar. Kahlar Annual Membership is currently $50.",
-        "footerContent": "If you are interested to know more, please feel free to contact us by clicking the link below.",
+        "headerContent": "Membership",
+        "footerContent": "If you are interested to know more, please feel free to contact us by clicking the quick link below.",
         "listHeader": "Membership payment may be done via any of the following options:",
         "listItems": [
             "Online Payment with the paypal link found below",
@@ -63,8 +68,10 @@
         ]
     },
     "inpersonclasses": {
-        "contents": [],
-        "headerContent": "In Person classes are offered at our Silver Spring location by Dr. Soumyendu Guha, twice a month.",
+        "contents": [
+            "In Person classes are offered at our Silver Spring location by Dr. Soumyendu Guha, twice a month."
+        ],
+        "headerContent": "In Person Classes",
         "footerContent": "In response to COVID-19, these classes are now being offered Online and will continue to be offered until further notice. Please check our website for the most current information. If you are interested to know more, please feel free to contact us by clicking the link below.",
         "listHeader": "Currently classes have been divided into the following groups",
         "listItems": [
@@ -74,11 +81,12 @@
     },
     "onlineclasses": {
         "contents": [
+            "Online classes are held every month, either once or twice, based on the Curriculum. Classes are conducted via Zoom or Google Hangouts.",
             "Classes with Dr. Soumyendu Guha are currently being held Online as part of Kahlar’s response to COVID-19",
             "Classes with Dr. Debashish Raychaudhuri are conducted Online, once a month. Students are currently learning songs from the Dance Drama - Shyama.",
             "Classes with Rohini Raychaudhuri are conducted twice a month. Students are currently learning songs of Rabindranath Tagore as well as songs of Dwijendralal Roy, Atul Prasad Sen and Rajanikanta Sen."
         ],
-        "headerContent": "Online classes are held every month, either once or twice, based on the Curriculum. Classes are conducted via Zoom or Google Hangouts.",
+        "headerContent": "Online Classes",
         "footerContent": "In response to COVID-19, some programs are being planned to be staged virtually. Please check our website for the most current information. If you are interested to know more, please feel free to contact us by clicking the link below.",
         "listHeader": "Students are currently practicing songs of Sarot Ritu (Fall Season). please find the schedule below.",
         "listItems": [
@@ -89,7 +97,7 @@
     "pastperformances": {
         "contents": [],
         "footerContent": "Our current mission includes teaching Rabindrasangeet to students weekly. Teachers are from Kolkata and USA and online classes are available.Kahlar has also been involved in multiple fundraising efforts to help those in need.",
-        "headerContent": "",
+        "headerContent": "Past Performances",
         "listHeader": "Our Presentations",
         "listItems": [
             "1968 - Kahlar in Kolkata, India, staged Shapmochan, a dance drama, in Kolkata",
@@ -115,9 +123,11 @@
         ]
     },
     "upcomingperformances": {
-        "contents": [],
-        "footerContent": "In response to COVID-19, these classes are now being offered Online and will continue to be offered until further notice. Please check our website for the most current information. If you are interested to know more, please feel free to contact us by clicking the link below.",
-        "headerContent": "Kahlar continues to provide performances, with songs and dances centered around new themes and concepts, to keep its audiences enthralled and engaged till the end.",
+        "contents": [
+            "Kahlar continues to provide performances, with songs and dances centered around new themes and concepts, to keep its audiences enthralled and engaged till the end."
+        ],
+        "footerContent": "In response to COVID-19, these classes are now being offered Online and will continue to be offered until further notice. Please check our website for the most current information. If you are interested to know more, please feel free to contact us by clicking the quick link below.",
+        "headerContent": "Upcomg Performances",
         "listHeader": "Some tentative upcoming performances:",
         "listItems": [
             "2020 – Durga Puja Festival (Various International Artistes) – Virtual",
@@ -128,10 +138,11 @@
     },
     "fundraisers": {
         "contents": [
+            "Kahlar has been involved in multiple fundraising efforts to help those in need.",
             "Coronavirus Disease 2019 (COVID-19) is a disease that was identified in Wuhan, China, and is now being spread throughout the world. Super Cyclonic Storm Amphan was a powerful and deadly tropical cyclone that caused widespread damage in Eastern India, specifically West Bengal, and in Bangladesh, in May 2020"
         ],
         "footerContent": "These fundraisers and some videos showing where some of our donations reached, can be viewed on our Facebook Page and our YouTube Page. For donations, please visit Support Us",
-        "headerContent": "Kahlar has been involved in multiple fundraising efforts to help those in need.",
+        "headerContent": "Fundraisers",
         "listHeader": "Of most recent, Kahlar has been spearheading Virtual Fundraising Concerts to raise funds for the COVID-19 impacted and for the Amphan affected.",
         "listItems": [
             "The series of these concerts was broadcasted via Facebook Live and via YouTube Live. These spanned over 18 weeks, from April 2020 till August 2020, under the leadership and guidance of Dr. Soumyendu Guha.",
