@@ -13,7 +13,7 @@
     },
     "proposals": {
         "contents": [
-            "Kahlar welcomes your proposals.<br>Kahlar is looking to partner and work with talented musicians and other artists. If you are an artist involved with Indian Music or Dance and have a proposal for a concert, workshop, lecture/ demonstration or other events, we would love to hear from you.",
+            "Kahlar welcomes your proposals. Kahlar is looking to partner and work with talented musicians and other artists. If you are an artist involved with Indian Music or Dance and have a proposal for a concert, workshop, lecture/ demonstration or other events, we would love to hear from you.",
             "Kahlar is looking to partner and work with talented musicians and other artists. If you are an artist involved with Indian Music or Dance and have a proposal for a concert, workshop, lecture/ demonstration or other events, we would love to hear from you."
         ],
         "headerContent": "Proposals",
@@ -31,11 +31,11 @@
             "Please Support Us.Kahlar is tax exempt under section 501(c)(3) of the IRS as a non-profit organization. Your fully tax-deductible donation to Kahlar is vital in ensuring the organization fulfills its mission and continues to grow. Your donation will directly help arrange for future quality concerts and workshops as well as providing help to those in need.If you would like to send a check, please make your check payable to Kahlar Inc., and mail to our mailing address listed below.  You can also send your payment via Paypal by clicking the quick link below."
         ],
         "headerContent": "Support Us",
-        "footerContent": "If you would like to send a check, please make your check payable to Kahlar Inc., and mail to our Mailing address listed below",
+        "footerContent": "If you would like to send a check, please make your check payable to Kahlar Inc., and mail to our Mailing address listed below.",
         "listHeader": "Kahlar has also been involved in multiple fundraising efforts to help those in need and has contributed funds to:",
         "listItems": [
-            "Amphan victims in Kolkata - India",
-            "COVID-19 affected people in Dhaka - Bangladesh",
+            "Amphan & COVID-19 affected in Kolkata - India",
+            "Amphan & COVID-19 affected - Bangladesh",
             "Foodbanks in DC, MD, and VA - USA"
         ]
     },
@@ -57,14 +57,14 @@
     "membership": {
         "contents": [
             "To be part of our Kahlar family and to be able to participate in any of Kahlar’s activities, we encourage you to become a member of Kahlar. Kahlar Annual Membership is currently $50.",
-            "Kahlar is tax exempt under section 501(c)(3) of the IRS as a non-profit organization. Your fully tax-deductible donation to Kahlar is vital in ensuring the organization fulfills its mission and continues to grow. Your donation will directly help arrange for future quality concerts and workshops as well as providing help to those in need. If you would like to send a check, please make your check payable to Kahlar Inc., and mail to the address listed below. You can also send your payment via Paypal to us by clicking the link below."
+            "Kahlar is tax exempt under section 501(c)(3) of the IRS as a non-profit organization. Your fully tax-deductible donation to Kahlar is vital in ensuring the organization fulfills its mission and continues to grow. Your donation will directly help arrange for future quality concerts and workshops as well as providing help to those in need. If you would like to send a check, please make your check payable to Kahlar Inc., and mail to the address listed below. You can also send your payment via Paypal to us by clicking the quick link below."
         ],
         "headerContent": "Membership",
         "footerContent": "If you are interested to know more, please feel free to contact us by clicking the quick link below.",
         "listHeader": "Membership payment may be done via any of the following options:",
         "listItems": [
-            "Online Payment with the paypal link found below",
-            "Cash/ Check addressed to Kahlar Inc mailed to our Mailing address listed below"
+            "Online Payment via Paypal - quick link given below",
+            "Cash/ Check addressed to Kahlar Inc., mailed to our Mailing address listed below"
         ]
     },
     "inpersonclasses": {
@@ -82,21 +82,19 @@
     "onlineclasses": {
         "contents": [
             "Online classes are held every month, either once or twice, based on the Curriculum. Classes are conducted via Zoom or Google Hangouts.",
-            "Classes with Dr. Soumyendu Guha are currently being held Online as part of Kahlar’s response to COVID-19",
+            "Classes with Dr. Soumyendu Guha are being held Online as part of Kahlar’s response to COVID-19. Students are currently practicing songs of Sarot Ritu (Fall Season).",
             "Classes with Dr. Debashish Raychaudhuri are conducted Online, once a month. Students are currently learning songs from the Dance Drama - Shyama.",
             "Classes with Rohini Raychaudhuri are conducted twice a month. Students are currently learning songs of Rabindranath Tagore as well as songs of Dwijendralal Roy, Atul Prasad Sen and Rajanikanta Sen."
         ],
         "headerContent": "Online Classes",
-        "footerContent": "In response to COVID-19, some programs are being planned to be staged virtually. Please check our website for the most current information. If you are interested to know more, please feel free to contact us by clicking the link below.",
-        "listHeader": "Students are currently practicing songs of Sarot Ritu (Fall Season). please find the schedule below.",
+        "footerContent": "",
+        "listHeader": "",
         "listItems": [
-            "Intermediate students meet every First and Third Sunday of the month at 4 pm",
-            "Advanced students meet every Second and Fourth Sunday of the month at 4 pm"
         ]
     },
     "pastperformances": {
         "contents": [],
-        "footerContent": "Our current mission includes teaching Rabindrasangeet to students weekly. Teachers are from Kolkata and USA and online classes are available.Kahlar has also been involved in multiple fundraising efforts to help those in need.",
+        "footerContent": "",
         "headerContent": "Past Performances",
         "listHeader": "Our Presentations",
         "listItems": [
@@ -117,33 +115,30 @@
             "2017 - Under the direction of Debashish Raychaudhuri, Kahlar performed “Surantari-Chhandantari-Pathantori” at the Potomac Community Center, MD",
             "2018 - Kahlar performed at Bangasammelan 2018 in Atlantic City, NJ, based on “Surantari-Chhandantari-Pathantori",
             "2019 - Kahlar presented Tagore’s songs based on Mulgaans, followed by a Seasonal Geeti-Alekhya - “Ritur Rani Sarot”",
-            "2020 - Online fundraising concerts for COVID 19 affected and Amphan relief via FB Live and YouTube Live",
-            "Artistes from Kolkata and USA performed Rabindrasangeet in this effort",
-            "Starting in April 2020, the online show was run every Sunday for 18 weeks till August 2020, with over 70000 viewers"
+            "2020 - Online fundraising concerts for COVID 19 affected and Amphan relief via FB Live and YouTube Live. Artistes from Kolkata and USA performed Rabindrasangeet in this effort. Starting in April 2020, the online show was run every Sunday for 18 weeks till August 2020, with over 70000 viewers"
         ]
     },
     "upcomingperformances": {
         "contents": [
             "Kahlar continues to provide performances, with songs and dances centered around new themes and concepts, to keep its audiences enthralled and engaged till the end."
         ],
-        "footerContent": "In response to COVID-19, these classes are now being offered Online and will continue to be offered until further notice. Please check our website for the most current information. If you are interested to know more, please feel free to contact us by clicking the quick link below.",
-        "headerContent": "Upcomg Performances",
-        "listHeader": "Some tentative upcoming performances:",
+        "footerContent": "In response to COVID-19, some programs are being planned to be staged virtually. Please check our website for the most current information. If you are interested to know more, please feel free to contact us by clicking the link below.",
+        "headerContent": "Upcoming Performances",
+        "listHeader": "",
         "listItems": [
             "2020 – Durga Puja Festival (Various International Artistes) – Virtual",
-            "Songs of Sarot(Kahlar) - 2020 – Virtual",
-            "Shapmochan(Kahlar) - 2021 – Virtual & Stage",
-            "Shyama(Kahlar) – 2022 - Stage"
+            "Songs of Sarot (Kahlar) - 2020 – Virtual",
+            "Shapmochan (Kahlar) - 2021 – Virtual & Stage - Tentative",
+            "Shyama (Kahlar) – 2022 - Stage - Tentative"
         ]
     },
     "fundraisers": {
         "contents": [
-            "Kahlar has been involved in multiple fundraising efforts to help those in need.",
-            "Coronavirus Disease 2019 (COVID-19) is a disease that was identified in Wuhan, China, and is now being spread throughout the world. Super Cyclonic Storm Amphan was a powerful and deadly tropical cyclone that caused widespread damage in Eastern India, specifically West Bengal, and in Bangladesh, in May 2020"
+            "Coronavirus Disease 2019 (COVID-19) is a disease that was identified in Wuhan, China, and is now being spread throughout the world. Super Cyclonic Storm Amphan was a powerful and deadly tropical cyclone that caused widespread damage in Eastern India, specifically West Bengal, and in Bangladesh, in May 2020."
         ],
-        "footerContent": "These fundraisers and some videos showing where some of our donations reached, can be viewed on our Facebook Page and our YouTube Page. For donations, please visit Support Us",
+        "footerContent": "These fundraisers and some videos showing where some of our donations reached, can be viewed from the Gallery Tab listed above, our Facebook Page and our YouTube Page. For donation information, please visit Support Us.",
         "headerContent": "Fundraisers",
-        "listHeader": "Of most recent, Kahlar has been spearheading Virtual Fundraising Concerts to raise funds for the COVID-19 impacted and for the Amphan affected.",
+        "listHeader": "Kahlar has been involved in multiple fundraising efforts to help those in need. Of most recent, Kahlar has been spearheading Virtual Fundraising Concerts to raise funds for the COVID-19 impacted and for the Amphan affected.",
         "listItems": [
             "The series of these concerts was broadcasted via Facebook Live and via YouTube Live. These spanned over 18 weeks, from April 2020 till August 2020, under the leadership and guidance of Dr. Soumyendu Guha.",
             "Artistes from the United States, the United Kingdom, India and Bangladesh participated in this initiative along with experts in the fields of Medicine, Psychology and Immunology. Important facts and information was shared with the audiences related to COVID-19 and the pandemic.",

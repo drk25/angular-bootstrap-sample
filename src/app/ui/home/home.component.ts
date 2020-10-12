@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
   slides = [
+    "../assets/images/home 1.png",
     "../assets/images/promo/Day 1.png", 
     "../assets/images/promo/Day 2.png", 
     "../assets/images/promo/Day 3.png", 

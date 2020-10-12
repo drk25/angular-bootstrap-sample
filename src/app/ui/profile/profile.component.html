@@ -1,6 +1,10 @@
 <div class="container" *ngIf="members">
+	<p class="card-text text-left"><b><h3 style="color:rgba(139, 0, 0, 0.685)">{{page}}</h3></b></p>
+
 	<div class="col">
 		<div class="row">
+
+				
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 lesson-card" *ngFor="let member of members">
 				<div class="card lesson-border">
 					<img class="card-img-top" src="{{member.url}}" alt="Card image cap">
@@ -10,7 +14,7 @@
 					<h5 class="card-title"><b>Title: </b>{{lesson.title}}</h5> -->
 						<p class="card-text"><b>{{member.description}} </b></p>
 						<!-- <p class="card-text"><b>Category: </b>{{lesson.category}}</p> -->
-						<div *ngIf="page != 'guestartistes'">
+						<div *ngIf="page != 'Guest Artistes'">
 							<button type="button" class="btn btn-lesson" (click)="open(member)">Read More</button>
 						</div>
 					</div>
