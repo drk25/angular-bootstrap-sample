@@ -17,6 +17,24 @@
       <input formControlName="email" type="email" class="form-control" required id="email" placeholder="Enter Email">
     </div>
 
+    <div class="form-group mb-3">
+      <label for="eventName">Please select an Event</label>
+      <select formControlName="eventName" name="eventName" class="selectpicker" [(ngModel)]="eventName" (change)="eventSchedule(eventName)">
+          <option *ngFor="let event of eventList"  value="{{ event.eventName }}">{{ event.eventName }}</option>
+      </select>
+    </div>
+    <!-- <div class="form-group">
+      <label for="eventDescription">Event details</label>
+          <small></small>
+      </div> -->
+      <div class="form-group">
+        <label for="eventDateTime">Event Schedule</label>
+          <div *ngFor="let elem of eventDateTimeArr">
+           <input type="checkbox" formControlName="eventDateTime" >
+            <span>{{elem}}</span>
+          </div>
+          </div>
+  
     <button type="submit" class="btn btn-primary" ng-submit="onSubmit()">Register</button>
   </div>
 

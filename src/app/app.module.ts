@@ -9,7 +9,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { RegistrationService } from './service/registration.service';
 import { UserService } from './service/user.service';
 import { MediaService } from './service/media.service';
-
+import { EventsService } from './service/events.service';
 
 import { AppComponent } from './app.component';
 import { routingComponents, AppRoutingModule } from './routes/app-routing.module';
@@ -49,7 +49,7 @@ import { UserComponent } from './ui/user/user.component';
     AngularFireModule.initializeApp(firebasebDBenv.firebaseConfig),
     AngularFireDatabaseModule
   ],
-  providers: [RegistrationService,UserService,MediaService],
+  providers: [RegistrationService,UserService,MediaService,EventsService],
   bootstrap: [AppComponent]
 })
 
